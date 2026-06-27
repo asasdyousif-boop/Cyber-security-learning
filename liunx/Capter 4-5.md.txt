@@ -1,0 +1,229 @@
+NDG Linux Essentials – Chapters 4 & 5
+
+Today's Progress
+
+Today, I completed Chapters 4 and 5 of the NDG Linux Essentials course.
+
+Commands I Learned
+
+"uname"
+
+Displays information about the Linux system.
+
+Example:
+
+uname
+
+Output:
+
+Linux
+
+---
+
+"date"
+
+Displays the current system date and time.
+
+Example:
+
+date
+
+Output:
+
+Sat Jun 27 12:30:15 UTC 2026
+
+---
+
+"history"
+
+Shows the command history of the current shell session.
+
+Example:
+
+history
+
+To execute a command from the history list again:
+
+!25
+
+This re-runs command number 25.
+
+---
+
+"export"
+
+Creates or modifies an environment variable.
+
+Example:
+
+export NAME="Yousef"
+
+Verify it:
+
+echo $NAME
+
+Output:
+
+Yousef
+
+---
+
+"env"
+
+Displays all environment variables.
+
+Example:
+
+env
+
+---
+
+"which"
+
+Shows the location of an executable command.
+
+Example:
+
+which python3
+
+Possible Output:
+
+/usr/bin/python3
+
+---
+
+"alias"
+
+Creates a shortcut for a command.
+
+Example:
+
+alias ll='ls -la'
+
+Now you can run:
+
+ll
+
+instead of:
+
+ls -la
+
+---
+
+Local Variables vs Environment Variables
+
+Local Variables
+
+- Available only in the current shell.
+- Not inherited by child processes.
+
+Example:
+
+CITY="Baghdad"
+echo $CITY
+
+Environment Variables
+
+- Available to the current shell and child processes.
+- Created or exported using the "export" command.
+
+Example:
+
+export COUNTRY="Iraq"
+echo $COUNTRY
+
+---
+
+Shell Functions
+
+Functions allow you to group commands together and execute them whenever needed.
+
+Example:
+
+greet() {
+    echo "Hello, Yousef!"
+}
+
+Run the function:
+
+greet
+
+Output:
+
+Hello, Yousef!
+
+---
+
+Quotation Marks
+
+I learned the differences between:
+
+- Single quotes "' '" → Preserve the text exactly as written.
+- Double quotes "" "" → Allow variable expansion.
+- Backticks " " → Execute a command (modern alternative: "$(command)").
+
+Examples:
+
+NAME="Yousef"
+
+echo '$NAME'
+
+Output:
+
+$NAME
+
+echo "$NAME"
+
+Output:
+
+Yousef
+
+echo $(date)
+
+Output:
+
+Sat Jun 27 12:30:15 UTC 2026
+
+---
+
+Command Operators
+
+";"
+
+Executes multiple commands sequentially, regardless of whether the previous command succeeds or fails.
+
+Example:
+
+pwd; date; whoami
+
+---
+
+"||"
+
+Executes the second command only if the first command fails.
+
+Example:
+
+mkdir test || echo "Directory already exists"
+
+If the directory already exists, the output will be:
+
+Directory already exists
+
+---
+
+Summary
+
+Today I learned:
+
+- Basic Linux system information commands.
+- Command history and command reuse.
+- Local and environment variables.
+- The "export" and "env" commands.
+- The "which" and "alias" commands.
+- Creating and using shell functions.
+- The differences between quotation marks.
+- Using the ";" and "||" command operators.
+- Applying all concepts through practical examples.
+
+This document is part of my Linux learning journey and will continue to grow as I complete more chapters.
