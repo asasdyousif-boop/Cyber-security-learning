@@ -12,7 +12,7 @@ Displays information about the Linux system.
 
 Example:
 
-uname
+uname 
 
 Output:
 
