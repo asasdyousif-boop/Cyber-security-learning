@@ -1,72 +1,38 @@
-Cybersecurity learning
-
-Linux Fundamentals Part 1
-
-&#x20;Commands Learned
+Cyber Security Learning
 
 
 
-\- ls
-
-\- cd
-
-\- pwd
-
-\- echo
-
-\- cat
-
-\- w
-
-\- who
-
-\- whoami
-
-\- hostname
-
-\- mkdir
-
-\- clear
-
-\- touch
-
-\- rm
-
-\- rm -r
-
-\- nano
-
-\- ls -R
-
-\- find
-
-\- wc
-
-\- grep
-
-\- \&
-
-\- \&\&
-
-\- >
-
-\- >>
+This repository contains my cybersecurity learning journey.
 
 
 
-&#x20;What I Practiced
+Linux
 
 
 
-\- Navigating directories
+\- Linux Essentials
 
-\- Creating files and folders
+\- Notes and chapter summaries.
 
-\- Reading files
 
-\- Searching files
 
-\- Searching text
+TryHackMe
 
-\- Basic Linux terminal usage
+
+
+\- Linux Fundamentals
+
+\- Practice labs and notes.
+
+
+
+Goal
+
+
+
+\- Learn Linux fundamentals.
+
+\- Improve my practical skills.
+
+\- Track my learning progress.
 
