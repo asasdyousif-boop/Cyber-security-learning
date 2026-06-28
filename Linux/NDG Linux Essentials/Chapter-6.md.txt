@@ -1,0 +1,17 @@
+# Chapter 6 Notes
+
+ I learned:
+
+- Using man to read command manuals.
+- Moving and searching inside a man page.
+- Using info for detailed documentation.
+- Using locate to search for files.
+- Using whereis to find command locations.
+
+## Commands
+
+`bash
+man ls
+info ls
+locate filename
+whereis bash
