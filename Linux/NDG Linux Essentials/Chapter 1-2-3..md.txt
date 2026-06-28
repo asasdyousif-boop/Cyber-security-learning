@@ -1,4 +1,4 @@
-Linux Essentials – Chapters 1–3 Summary
+Linux Essentials – Chapters 1–2-3 Summary
 
 Chapter 1 – Introduction to Linux
 
@@ -18,3 +18,5 @@ Chapter 3 – Working with Linux
 - Understood the concepts of users, groups, and permissions.
 - Learned the difference between the GUI and CLI.
 - Prepared for using Linux commands in the next chapters.
+
+Exam 2 and 3 completed

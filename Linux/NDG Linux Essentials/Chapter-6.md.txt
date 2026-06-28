@@ -15,3 +15,6 @@ man ls
 info ls
 locate filename
 whereis bash
+
+-lab 6 completed
+-Exam 6 completed

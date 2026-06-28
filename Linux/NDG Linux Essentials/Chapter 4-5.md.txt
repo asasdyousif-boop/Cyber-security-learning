@@ -227,3 +227,5 @@ Today I learned:
 - Applying all concepts through practical examples.
 
 This document is part of my Linux learning journey and will continue to grow as I complete more chapters.
+-Exam 4 and 5 completed
+- lab 5 completed
