@@ -1,0 +1,94 @@
+Linux Essentials - Chapter 8
+
+Overview
+
+In this chapter, I practiced how to manage files and directories using the Linux command line. I completed different exercises to become more comfortable with basic file management and navigation.
+
+---
+
+What I Practiced
+
+- Creating files and directories
+- Navigating between directories
+- Copying files and folders
+- Moving and renaming files
+- Deleting files and directories
+- Using absolute and relative paths
+- Viewing hidden files
+- Organizing files into folders
+
+---
+
+Commands and Examples
+
+Create a directory
+
+mkdir Projects
+
+Create an empty file
+
+touch notes.txt
+
+List files
+
+ls
+
+Show detailed information
+
+ls -l
+
+Show hidden files
+
+ls -a
+
+Print the current directory
+
+pwd
+
+Change directory
+
+cd Projects
+
+Copy a file
+
+cp notes.txt backup.txt
+
+Copy a directory
+
+cp -r Projects Projects_Backup
+
+Move or rename a file
+
+mv backup.txt old_notes.txt
+
+Remove a file
+
+rm old_notes.txt
+
+Remove an empty directory
+
+rmdir EmptyFolder
+
+Remove a directory and its contents
+
+rm -r Projects_Backup
+
+---
+
+Simple Practice
+
+mkdir LinuxLab
+cd LinuxLab
+
+touch file1.txt
+touch file2.txt
+
+mkdir Documents
+
+cp file1.txt Documents/
+
+mv file2.txt notes.txt
+
+ls -l
+
+rm notes.txt
