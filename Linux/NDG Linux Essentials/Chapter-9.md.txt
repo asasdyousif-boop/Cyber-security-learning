@@ -1,0 +1,28 @@
+# Chapter 9 – Archiving and Compression
+
+## Overview
+In this chapter, I learned how to archive and compress files in Linux. I understood the difference between archiving and compression and why they are useful for saving storage space and making files easier to share.
+
+## What I Learned
+- The difference between files, directories, archives, and compressed files.
+- How archive files are created and managed.
+- The purpose of file compression and its advantages.
+- Different compression methods used in Linux.
+- The difference between archive files and compressed files.
+- How ZIP files are commonly used for sharing files between different operating systems.
+
+## Key Concepts
+- Files and Directories
+- Archives
+- Compression
+- TAR
+- GZIP
+- BZIP2
+- XZ
+- ZIP and UNZIP
+
+## Conclusion
+This chapter gave me a better understanding of how Linux handles archiving and file compression. I learned why these tools are important for organizing files, reducing storage space, and transferring data efficiently.
+
+-lab 9 Done
+-Exam 9 Done
