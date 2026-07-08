@@ -1,0 +1,58 @@
+NDG Linux Essentials -chapter 13 -
+Where Data is Stored
+----------------------------------
+
+ps
+
+Shows running processes.
+
+Example:
+ps
+
+---
+
+ps aux
+
+Shows all running processes with detailed information.
+
+Example:
+ps aux
+
+---
+
+top
+
+Displays real-time system processes and resource usage.
+
+Example:
+top
+
+---
+
+free
+
+Shows memory usage (RAM).
+
+Example:
+free
+
+---
+
+dmesg
+
+Displays system messages (kernel logs).
+
+Example:
+dmesg
+
+---
+
+su -
+
+Switches to another user (usually root) with full environment.
+
+Example:
+su -
+
+-Lab 13 Done
+-Exam 13 Done
