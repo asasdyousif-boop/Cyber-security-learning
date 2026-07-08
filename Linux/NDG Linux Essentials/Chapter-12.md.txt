@@ -1,0 +1,61 @@
+NDG Linux Essentials - Chapter 12 -
+
+Computer Hardware 
+--------------------------------------
+
+-Motherboards
+The motherboard, or system board, is the main hardware board 
+in the computer through which the central processing unit CPU),
+random-access memory (RAM) and other components are all connected. 
+
+
+-Processors
+A central processing unit (CPU or processor) is one of the most critical hardware components of a computer.
+The processor is the brain of the computer, where the execution of code takes place and where most calculations
+are done.It is directly connected (soldered) to the motherboard, as motherboards are typically configured to work with specific types of processors.
+
+linux there are primarily just two types of processors used on desktop and server computers: x86 and x86_64. On an x86 system, the system processes data 32 bits at a time; on an x86_64 the system processes data 64 bits at a time.
+
+The `arch` command: to determine the family to which the current system's CPU belongs.
+Example: arch
+output: x86_64
+
+The `lscpu` command: for more information about the CPU.
+
+- Random Access Memory(RAM)
+
+The free command To view the amount of RAM in your system, including the swap space, has a -m option to force the output to be rounded to the nearest megabyte (MB) and a -g option to force the output to be rounded to the nearest gigabyte (GB)
+
+
+-Buses
+A bus is a high-speed connection that allows communication between computers or the components inside a computer. The motherboard has buses that allow for multiple devices to connect to the system, including the Peripheral Component Interconnect (PCI) and Universal Serial Bus (USB). The motherboard also has connectors for monitors, keyboards and mice.
+
+
+ the lspci command. To view all of the devices connected by the PCI bus
+
+Universal Serial Bus Devices (USB)
+the lsusb command: To display the devices connected to the system via USB
+
+- Hard Drives
+ a hard drive can generally be defined as any electromechanical or electronic
+ storage device that holds data to be accessed by the system.
+
+-Solid State Disks (SSD)
+Solid state disks are essentially larger capacity USB thumb drives in construction and function. 
+
+-Optical Drives
+some devices used with optical disks are read-only, others are capable of burning (writing to) disks,
+when using a writable type of disk. There are various standards for writable and rewritable disks
+
+-Managing Devices
+Linux by nature has a number of distributions or versions, a large portion of which are focused on mainstream hardware, while others run on relatively obscure types or models of hardware. It's safe to say that there is a Linux distribution specifically designed for just about all modern hardware platforms, and for many historical platforms as well.
+
+- Video Display Devices
+In order to display output to the monitor, the computer system must have a video display device (video card) and a monitor. Video display devices are often directly built into or attached to the motherboard, although they can also be connected through the PCI bus slots on the motherboard.
+
+-Power Supplies
+Power supplies are the devices that convert alternating current (120v, 240v) into direct current, which the computer uses at various voltages (3.3v, 5v, 12v). Power supplies are generally not programmable; however, their proper function has a major impact on the rest of the system.
+
+-lab 12 Done 
+-Exam 12 Done
+
