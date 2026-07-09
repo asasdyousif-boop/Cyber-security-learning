@@ -1,0 +1,100 @@
+NDG Linux Essentials - Chapter 14 -
+
+Network Configuration
+-------------------------------------------
+Basic Network Terminology:
+
+-Host: In networking terms, a host is any device that communicates via a network with another device.
+
+-Network:A network is a collection of two or more hosts (computers) that are able to communicate with each other. 
+This communication can be via a wired connection or wireless.
+
+-Internet:The Internet is an example of a network. It consists of a publicly accessible network that connects millions of hosts throughout the world. 
+
+-Wi-Fi:The term Wi-Fi refers to wireless networks.
+
+-Server:A host that provides a service to another host or client is called a server. 
+
+-Service:A feature provided by a host is a service. An example of a service would be when a host provides web pages to another host.
+
+-Client:A client is a host that is accessing a server. When you are working on a computer surfing the Internet, you are considered to be on a client host.
+
+-Router:Also called a gateway, a router is a machine that connects hosts from one network to another network.
+
+-----------------------------------------
+ Networking Features Terminology:
+
+-Packet:A network packet is used to send network communication between hosts. By breaking down communication into smaller chunks (packets), the data delivery method is much more efficient.
+
+-IP Address:An Internet Protocol (IP) address is a unique number assigned to a host on a network. Hosts use these numbers to address network communication.
+
+-Mask:Also called a netmask, subnet mask or mask, a network mask is a number system that can be used to define which IP addresses are considered to be within a single network. Because of how routers perform their functions, networks have to be clearly defined.
+
+-Hostname:Each host on a network could have its own hostname because names are more natural for humans to remember than numbers, making it easier for us to address network packets to another host. Hostnames are translated into IP addresses before the network packet is sent on the network.
+
+-URL:A Uniform Resource Locator (URL), also commonly called a web address, is used to locate a resource, like a web page, on the internet. It’s what you type into your web browser to access a web page. 
+
+-DHCP:Hosts can be assigned hostnames, IP addresses and other network-related information by a DHCP (Dynamic Host Configuration Protocol) server. In the world of computers, a protocol is a well-defined set of rules. DHCP defines how network information is assigned to client hosts, and the DHCP server is the machine that provides this information.
+
+-DNS: A Domain Name System (DNS) provides the service of translating domain names into IP addresses.
+
+-Ethernet:In a wired network environment, Ethernet is the most common way to physically connect the hosts into a network. Ethernet cables are connected to network cards that support Ethernet connections.
+
+-TCP/IP:The Transmission Control Protocol/Internet Protocol (TCP/IP) is a fancy name for a collection of protocols (remember, protocol = set of rules) that are used to define how network communication should take place between hosts. While it isn't the only collection of protocols used to define network communication, it is the most often utilized one.
+--------------------------------------------------
+IP Addresses
+
+-There are, two different types of IP addresses: IPv4(32bit) and IPv6(128bit).
+IPv4 : 192.168.10.120
+Ipv6 :2001:0db8:85a3:0042:1000:8a2e:0370:7334
+
+---------------------------------
+Configuring Network Devices
+desktop machines use wired networks, while laptops use wireless networks. Normally a wired machine uses a static IP address, but these can also often be assigned via a DHCP server. In almost all cases, wireless machines use DHCP since they are almost always mobile and attached to different networks.
+------------------------------------------------------
+Configuring the Network Using Configuration Files
+Primary IPv4 Configuration File:
+
+On a CentOS system, the primary configuration file for an IPv4 network interface is the /etc/sysconfig/network-scripts/ifcfg-eth0 file. 
+
+Primary IPv6 Configuration File:
+
+On a CentOS system, the primary IPv6 configuration file is the same file where IPv4 configuration is stored; the 
+/etc/sysconfig/network-scripts/ifcfg-eth0 file.
+--------------------------------------------
+Domain Name System (DNS)
+The address of the DNS server is stored in the /etc/resolv.conf file. A typical /etc/resolv.conf file is automatically generated
+
+/etc/resolv.conf : This file contains the IP addresses of the name servers the system should consult in any attempt to resolve names to IP addresses. These servers are often DNS servers. It also can contain additional keywords and values that can affect the resolution process.
+
+/etc/hosts : This file contains a table of hostnames to IP addresses. It can be used to supplement a DNS server.
+
+/etc/nsswitch.conf : This file can be used to modify where hostname lookups occur. It contains a particular entry that describes in what order name resolution sources are consulted. 
+-------------------------------------------
+Network Tools
+
+-The ifconfig command : stands for interface configuration and is used to display network configuration information.
+
+-The ifconfig command is becoming obsolete in some Linux distributions (deprecated) and is being replaced with a form of the ip command, specifically ip addr show. The ip command differs from ifconfig in several important manners, chiefly that through its increased functionality and set of options, it can almost be a one-stop shop for configuration and control of a system’s networking. 
+
+-The route command : To view a table that describes where network packages are sent
+
+-The route command is becoming obsolete in some Linux distributions (deprecated) and is being replaced with a form of the ip command, specifically ip route or ip route show.
+
+- The ping Command : The ping command can be used to determine if another machine is reachable.
+
+-The netstat command is a powerful tool that provides a large amount of network information. It can be used to display information about network connections as well as display the routing table similar to the route command.
+
+-The ss command : is designed to show socket statistics and supports all the major packet and socket types. Meant to be a replacement for and to be similar in function to the netstat command, it also shows a lot more information and has more features.
+
+-The dig Command : There may be times when you need to test the functionality of the DNS server that your host is using. One way of doing this is to use the dig command, which performs queries on the DNS server to determine if the information needed is available on the server.
+
+-The host command : works with DNS to associate a hostname with an IP address
+
+-The ssh command : allows you to connect to another machine across the network, log in and then perform tasks on the remote machine.
+ The exit command :To return back to the local machine
+
+-Lab 14 Done 
+-Exam 14 Done
+
+
