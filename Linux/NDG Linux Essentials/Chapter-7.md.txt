@@ -1,1 +1,79 @@
-Linux Essentials – Chapter-7Navigating the FilesystemIn this chapter, I learned how to move around the Linux filesystem and understand how directories are organized.I learned that the Linux filesystem starts from the root directory, and all files and folders are stored under it.I also learned how to find my current location, view the contents of directories, and move between different folders.Another important topic was understanding the difference between an absolute path, which starts from the root directory, and a relative path, which starts from the current location.I learned about special symbols used while navigating the filesystem, such as the current directory, the parent directory, the home directory, and the root directory.What I Learned- Understanding the Linux filesystem structure.- Navigating between directories.- Viewing files and folders.- Understanding absolute and relative paths.- Learning the purpose of common navigation symbols.ConclusionThis chapter helped me understand how to navigate the Linux filesystem more confidently. These concepts are important because they make it easier to work with files and directories in Linux.Commands Covered:pwdcd ..ls /var (used to list the contents of any directory in the filesystem. Provide the path to the directory as an argument)  //var Examplels -a (To display all files, including hidden files)Example: ls -aoutput:.                 Public..                .ssh.bash_logout      .sudo_as_admin_successful.bashrc           Templates.bashrc.original  .vboxclient-clipboard-tty7-control.pid.cache            .vboxclient-clipboard-tty7-service.pid.config           .vboxclient-draganddrop-tty7-control.pidDesktop           .vboxclient-draganddrop-tty7-service.pid.dmrc             .vboxclient-hostversion-tty7-control.pidDocuments         .vboxclient-seamless-tty7-control.pidDownloads         .vboxclient-seamless-tty7-service.pid.face             .vboxclient-vmsvga-session-tty7-control.pid.face.icon        .vboxclient-vmsvga-session-tty7-service.pid.gnupg            Videos.ICEauthority     .Xauthority.java             .xsession-errors.local            .xsession-errors.old.mozilla          You1Music             .zprofilePictures          .zsh_history.profile          .zshrc------------------------------------------------------------ls -l (Displays files in an expanded view.)Example: ls -loutput:total 36drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Desktopdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Documentsdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Downloadsdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Musicdrwxr-xr-x 2 kali kali 4096 Jun 22 08:51 Picturesdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Publicdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Templatesdrwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Videosdrwxrwxr-x 2 kali kali 4096 Jun 22 08:42 You1-------------------------------------------------------------ls -h ( to present the file size , like megabytes or gigabytes.)ls -R ( to display all of the files in a directory as well as all of the files in all subdirectories under that directory. )ls -S (To sort files by size)ls -t (sorts files based on the time they were modified.)ls -t --full-time ( For more detailed modification time information)-----------------------------------------------------lab 7 Competed-Exam 7 Compeletd
+Linux Essentials – Chapter-7
+
+Navigating the Filesystem
+
+In this chapter, I learned how to move around the Linux filesystem and understand how directories are organized.
+
+I learned that the Linux filesystem starts from the root directory, and all files and folders are stored under it.
+
+I also learned how to find my current location, view the contents of directories, and move between different folders.
+
+Another important topic was understanding the difference between an absolute path, which starts from the root directory, and a relative path, which starts from the current location.
+
+I learned about special symbols used while navigating the filesystem, such as the current directory, the parent directory, the home directory, and the root directory.
+
+What I Learned
+
+- Understanding the Linux filesystem structure.
+- Navigating between directories.
+- Viewing files and folders.
+- Understanding absolute and relative paths.
+- Learning the purpose of common navigation symbols.
+
+Conclusion
+
+This chapter helped me understand how to navigate the Linux filesystem more confidently. These concepts are important because they make it easier to work with files and directories in Linux.
+
+Commands Covered:
+pwd
+cd ..
+
+ls /var (used to list the contents of any directory in the filesystem. Provide the path to the directory as an argument)  //var Example
+
+ls -a (To display all files, including hidden files)
+Example: ls -a
+output:
+.                 Public
+..                .ssh
+.bash_logout      .sudo_as_admin_successful
+.bashrc           Templates
+.bashrc.original  .vboxclient-clipboard-tty7-control.pid
+.cache            .vboxclient-clipboard-tty7-service.pid
+.config           .vboxclient-draganddrop-tty7-control.pid
+Desktop           .vboxclient-draganddrop-tty7-service.pid
+.dmrc             .vboxclient-hostversion-tty7-control.pid
+Documents         .vboxclient-seamless-tty7-control.pid
+Downloads         .vboxclient-seamless-tty7-service.pid
+.face             .vboxclient-vmsvga-session-tty7-control.pid
+.face.icon        .vboxclient-vmsvga-session-tty7-service.pid
+.gnupg            Videos
+.ICEauthority     .Xauthority
+.java             .xsession-errors
+.local            .xsession-errors.old
+.mozilla          You1
+Music             .zprofile
+Pictures          .zsh_history
+.profile          .zshrc
+------------------------------------------------------------
+ls -l (Displays files in an expanded view.)
+Example: ls -l
+output:
+total 36
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Desktop
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Documents
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Downloads
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Music
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:51 Pictures
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Public
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Templates
+drwxr-xr-x 2 kali kali 4096 Jun 22 08:36 Videos
+drwxrwxr-x 2 kali kali 4096 Jun 22 08:42 You1
+-------------------------------------------------------------
+ls -h ( to present the file size , like megabytes or gigabytes.)
+ls -R ( to display all of the files in a directory as well as all of the files in all subdirectories under that directory. )
+ls -S (To sort files by size)
+ls -t (sorts files based on the time they were modified.)
+ls -t --full-time ( For more detailed modification time information)
+----------------------------------------------------
+-lab 7 Competed
+-Exam 7 Compeletd
