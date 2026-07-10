@@ -1,0 +1,46 @@
+NDG Linux Essentials -Chapter 15 -
+
+System and User Security
+-------------------------------------------
+Administrative Accounts
+- it is not recommended to log in as the root user directly.
+
+Switching Users
+-The su command allows you to run a shell as a different user. While switching to the root user is what
+it is used for most frequently, it can also switch to other users as well.
+options
+su -
+su -l
+su --login
+su - root
+
+The sudo command
+Example:sudo head /etc/shadow
+Using the sudo command to execute an administrative command results in an entry placed in a log file.
+Each entry includes the name of the user who executed the command, the command that was executed 
+and the date and time of execution. 
+
+User Accounts
+-that contain the account data of the users and groups defined on the system. example: /etc/passwd
+
+-Passwords
+The /etc/shadow file contains account information related to the user's password. , regular users can't view the contents of the /etc/shadow file for security reasons. To view the contents of this file, log in as the administrator the root account
+
+-Group Accounts
+Your level of access to a system is not determined solely by your user account. Each user can be a member of one or more groups, which can also affect the level of access to the system.
+
+- Viewing User Information
+ The id command is used to print user and group information for a specified user.
+
+-The who command displays a list of users who are currently logged into the system, where they are logged in from, and when they logged in. Through the use of options, this command is also able to display information such as the current runlevel (a functional state of the computer) and the time that the system was booted.
+
+Example : who
+output : kali     seat0        2026-07-10 15:09 (:0)
+
+- The w command provides a more detailed list about the users currently on the system than the who command. It also provides a summary of the system status. 
+
+-Viewing Login History
+The last command reads the entire login history from the /var/log/wtmp file and displays all logins and reboot records by default. 
+
+-Lab 15 Done 
+-Exam 15 Done
