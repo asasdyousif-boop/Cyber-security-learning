@@ -1,0 +1,78 @@
+NDG Linux Essentials - Chapter 16 -
+
+Creating Users and Groups
+----------------------------------
+Creating A Group
+-The 'groupadd' command can be executed by the root user to create a new group. The command requires only the name of the group to be created. The -g option can be used to specify a group id for the new group
+
+Example : groupadd -g 1005 regroup
+          grep regroup /etc/group
+output:   regroup:x:1005:
+
+Group ID Considerations
+-you should avoid creating GIDs in the same numeric ranges where you expect to create UIDs
+to avoid a conflict between a GID you create and a UPG number that is created to match a UID.
+
+- use the -r option which assigns the new group a GID that is less than the lowest standard GID
+
+Group Naming Considerations
+
+-The first character of the name should be either an underscore _ character or a lowercase alphabetic a-z character.
+
+-Up to 32 characters are allowed on most Linux distributions, but using more than 16 can be problematic as some distributions may not accept more than 16.
+
+-After the first character, the remaining characters can be alphanumeric,
+ a dash - character or an underscore _ character.
+
+-The last character should not be a hyphen - character.
+
+Modifying a Group
+-The groupmod command can be used to either change the name of a group with
+ the -n option or change the GID for the group with the -g option.
+
+-if you change the GID for a group, then all files that were associated
+ with that group will no longer be associated with that group. 
+
+User Configuration Files
+-The useradd command
+-The -D option to the useradd command allows you to view or change some of the default values used by the useradd command. The values shown by useradd -D can also be viewed or updated by manipulating the /etc/default/useradd file:
+
+-The -g option to the useradd command allows you to use a different primary
+ group than the default when creating a new user account.
+
+-The -b option to the useradd command allows you to use a different base directory group 
+than the default when creating a new user account.
+
+-The -f option to the useradd command allows you to use a different INACTIVE value 
+than the default when creating a new user account.
+
+-The -e option to the useradd command allows you to use a different EXPIRE value
+ than the default when creating a new user account.
+
+-The -k option to the useradd command allows you to use a different SKEL directory 
+than the default when creating a new user account.
+
+-The -s option to the useradd command allows you to use a different login shell 
+than the default when creating a new user account.
+
+-Adding the -u option to the useradd command allows you to specify the UID number.
+ UIDs typically can range anywhere from zero to over four billion.
+
+Creating a User
+-Once you've verified which default values to use and you've gathered the information about the user, 
+then you are ready to create a user account. 
+
+Example : useradd -u 1009 -g users -G sales -m -c 'yousif Doe' yousif--
+
+Passwords
+
+-There are numerous factors to consider when you are trying to choose a password for an account:
+Length , Composition , Lifetime
+
+-There are several ways for a user password to be changed. The user can execute the passwd command, 
+
+-Deleting a User
+The userdel command is used to delete users. 
+
+-Lab 16 Done 
+-Exam 16 Done
