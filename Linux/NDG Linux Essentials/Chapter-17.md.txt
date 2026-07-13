@@ -1,0 +1,55 @@
+NDG Linux Essentials
+Ownership and Permissions
+----------------------------------------------
+File Ownership
+-The id command to verifying which user account you are using and which groups you have available to use.
+
+Changing Groups
+-If you know that the file you are about to create should belong to a group different from your current
+primary group, then you can use the newgrp command to change your current primary group.
+
+Changing Group Ownership 
+-The chgrp command can be used To change the group owner of an existing file 
+
+- The stat command displays more detailed information about a file, including providing 
+the group ownership both by group name and GID number
+
+- Changing User Ownership
+The chown command allows the root user to change the user ownership of files and directories.
+
+Permissions
+Example 
+-rw-r--r--. 1 root root 4135 May 27 21:08 /etc/passwd
+-The first character of each line indicates the type of file:
+
+-	A regular file, which may be empty, or contain text or binary data.
+d	A directory file, which contains the names of other files and links to them.
+l	A symbolic link is a file name that refers (points) to another file.
+b	A block file is one that relates to a block hardware device where data is read in blocks of data.
+c	A character file is one that relates to a character hardware device where data is read one byte at a time.
+p	A pipe file works similar to the pipe symbol, allowing for the output of one process to communicate to another process through the pipe file,
+        where the output of the one process is used as input for the other process.
+s	A socket file allows two processes to communicate, where both processes are allowed to either send or receive data
+
+-The next nine characters demonstrate the permissions of the file.
+User Owner  rw-
+Group Owner r--
+Other Permissions r--
+
+Permission Types
+Read    r
+Write	w
+Execute x
+
+Changing Permissions 
+-The chmod (change mode) command is used to change permissions on files and directories
+Example : chmod g+w abc.txt
+
+Default Permissions
+-The umask command is a feature that is used to determine default permissions that are set when a file or directory is created. 
+
+-Lab 17 Done
+-Exam 17 Done
+
+
+
