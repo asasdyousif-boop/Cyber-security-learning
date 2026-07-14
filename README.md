@@ -1,38 +1,52 @@
-Cyber Security Learning
+***# 👋 Hi, I'm Yousif***
+
+***# My Learning Roadmap***
 
 
 
-This repository contains my cybersecurity learning journey.
+&#x20;***Linux***
+
+***- NDG Linux Essentials***
+
+***- Linux Labs***
+
+***- TryHackMe***
 
 
 
-Linux
+&#x20;***Networking (Current Focus)***
+
+***- Cisco Network Technician Career Path***
+
+***- Wireshark***
+
+***- Cisco Packet Tracer***
+
+***- Network Labs***
+
+***- TryHackMe***
 
 
 
-\- Linux Essentials
+&#x20;***Next Step***
 
-\- Notes and chapter summaries.
+***- Cybersecurity***
 
+***- SOC Fundamentals***
 
+***- Web Security***
 
-TryHackMe
+***- Digital Forensics***
 
-
-
-\- Linux Fundamentals
-
-\- Practice labs and notes.
+***- Penetration Testing***
 
 
 
-Goal
+***## Goals***
 
+***- Build a strong foundation in Linux, Networking, and Cybersecurity.***
 
+***- Document my learning journey through hands-on labs and projects.***
 
-\- Learn Linux fundamentals.
-
-\- Improve my practical skills.
-
-\- Track my learning progress.
+***- Continuously improve my practical skills.***
 
