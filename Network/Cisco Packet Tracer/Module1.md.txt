@@ -1,0 +1,46 @@
+Network Technician - Module 1 -
+Communication in a Connected World
+
+Network Type
+  
+-The internet is a worldwide collection of interconnected networks (internetwork or internet for short), cooperating with each other to exchange information using common standards. Through telephone wires, fiber-optic cables, wireless transmissions, and satellite links, internet users can exchange information in a variety of forms.
+
+Local Networks
+- SOHO :  are referred to as small office/home office (SOHO) networks.
+
+ Mobile Devices
+- Smartphone ,Tablet ,Smartwatch ,Smart Glasses
+
+Connected Home Devices
+-Security System, Smart Tv ,Appliances ,Gaming Console
+
+Other Connected Devices
+-Smart Cars ,RFID Tags ,Sensors and Actuators,Medical Devices
+
+Data Transmission
+
+The bit
+-The computer only understands the binary system, which is 0 and 1, so all encoded data is in the form of bits.
+
+-Every input device (mouse, keyboard, voice-activated receiver) will translate human interaction into binary code for the CPU to process and store. Every output device (printer, speakers, monitors, etc.) will take binary data and translate it back into human recognizable form. Within the computer itself, all data is processed and stored as binary.
+
+Common Methods of Data Transmission
+-There are three common methods of signal transmission used in networks:
+.Electrical signals - Transmission is achieved by representing data as electrical pulses on copper wire.
+.Optical signals - Transmission is achieved by converting the electrical signals into light pulses.
+.Wireless signals - Transmission is achieved by using infrared, microwave, or radio waves through the air.
+Click Play in the figure to see an animation of the three types of signal transmissions.
+
+-In most homes and small businesses, network signals are transmitted across copper wires (cables) or Wi-Fi enabled wireless connections. Larger networks employ fiber-optic cables in order to reliably carry signals for longer distances.
+ 
+Bandwidth and Throughput
+
+-throughput does not usually match the specified bandwidth. Many factors influence throughput including:
+.The amount of data being sent and received over the connection
+.The types of data being transmitted
+.The latency created by the number of network devices encountered between source and destination
+
+-Exam Module 1 Done
+
+
+
