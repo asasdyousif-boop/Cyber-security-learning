@@ -1,0 +1,56 @@
+Cisco Network Technician - Module 2 -
+Network Components, Types and Connections
+---------------------------------------------------
+
+Clients and Servers.
+- Client and Server Roles
+All computers connected to a network that participate directly in network communication are classified as hosts, Hosts can send and receive messages on the network. In modern networks, computer hosts can act as a client, a server, or both, as shown in the figure. The software installed on the computer determines which role the computer plays.
+
+-Peer to Peer Networks
+ possible for one computer to run both client and server software at the same time. In small businesses and homes, many computers function as the servers and clients on the network. This type of network is called a peer-to-peer (P2P) network.
+ 
+-The advantages of peer-to-peer networking:
+Easy to set up.
+Less complex.
+Lower cost because network devices and dedicated servers may not be required.
+Can be used for simple tasks such as transferring files and sharing printers.
+
+-The disadvantages of peer-to-peer networking:
+No centralized administration.
+Not as secure.
+Not scalable.
+All devices may act as both clients and servers which can slow their performance.
+
+-Peer to Peer Applications.
+A P2P application allows a device to act as both a client and a server within the same communication,
+ every client is a server and every server is a client. P2P applications require that each end device
+ provide a user interface and run a background service.
+
+Network Infrastructure. 
+-The network infrastructure contains three categories of hardware components.
+End devices.
+Intermediate devices.
+Network media.
+
+-End Devices
+The network devices that people are most familiar with are called end devices, or hosts. These devices form the interface between users and the underlying communication network.
+-Some examples of end devices are as follows:
+Computers.
+Network printers.
+Telephones and teleconferencing equipment.
+Security cameras.
+Mobile devices.
+
+
+ISP Connections.
+- a router is required to securely connect a computer to an ISP. This is the most common connection option.
+ It consists of using a wireless integrated router to connect to the ISP. The router includes a switch to 
+connect wired hosts and a wireless AP to connect wireless hosts. The router also provides client IP 
+addressing information and security for inside hosts.
+
+-Other ISP connection options for home users include the following:
+Cellular.
+Satellite.
+Dial-up Telephone.
+
+-Exam Module 2 Done
