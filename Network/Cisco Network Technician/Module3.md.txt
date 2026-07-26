@@ -1,0 +1,35 @@
+Cisco Network Technician - Module 3 -
+Wireless and Mobile Networks.
+-------------------------------------------
+
+Wireless Networks
+-In addition to the GSM and 4G/5G transmitters and receivers, smartphones make connections in a variety of ways.
+
+-GPS 
+Global Positioning System
+The GPS uses satellites to transmit signals that cover the globe. The smartphone can receive 
+these signals and calculate the phone’s location to an accuracy of within 10 meters.
+
+-Wi-Fi
+Wi-Fi transmitters and receivers located within the smartphone enable the phone to connect to 
+local networks and the internet. In order to receive and send data on a Wi-Fi network, the phone 
+needs to be within the range of the signal from a wireless network access point.
+
+-Bluetooth
+-NFC
+Near Field Communication (NFC) is a wireless communication technology that enables data to be 
+exchanged by devices that are in very close proximity to each other, usually less than a few centimeters
+
+Mobile Networks
+
+- it is important to use security when connecting to Wi-Fi networks. 
+These precautions should be taken to protect Wi-Fi communications on mobile devices:
+
+Never send login or password information using unencrypted text (plaintext).
+Use a VPN connection when possible if you are sending sensitive data.
+Enable security on home networks.
+Use WPA2 or higher encryption for security.
+
+-Done Exam
+
+
