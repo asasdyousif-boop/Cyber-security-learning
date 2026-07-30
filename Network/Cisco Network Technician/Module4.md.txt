@@ -1,0 +1,35 @@
+Cisco Network Technician - Module 4 -
+Build a Home Network
+------------------------------------------------
+-Components of a Home Network
+Desktop computers
+Gaming systems
+Smart TV systems
+Printers
+Scanners
+Security cameras
+Telephones
+Climate control devices
+
+-Small business and home routers typically have two primary types of ports:
+Ethernet Ports
+Internet Port
+
+-LAN Wireless Frequencies
+The wireless technologies most frequently used in home networks are in the unlicensed 2.4 GHz and 5 GHz frequency ranges.
+
+-Bluetooth is a technology that makes use of the 2.4 GHz band.
+-Other technologies that use the 2.4 GHz and 5 GHz bands are the modern wireless LAN technologies 
+that conform to the various IEEE 802.11 standards. 
+
+-Category 5e Cable
+Category 5e is the most common wiring used in a LAN. The cable is made up of 4 pairs 
+of wires that are twisted to reduce electrical interference.
+
+-Coaxial Cable
+
+-Wi-Fi Alliance organization is responsible for testing wireless LAN device
+- SSID : the Service Set Identifier 
+
+
+- Done
