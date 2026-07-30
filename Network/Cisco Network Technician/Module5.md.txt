@@ -1,0 +1,24 @@
+Cisco Network Technician - Module 5 - 
+communication principles
+--------------------------------------------------------
+-Communication protocols are considered the language of communication between computers
+
+-If every computer had specific protocols that the other computer did not understand, 
+communication would not have taken place.
+
+-TCP/IP Model Layer
+Application
+Transport
+Internet
+Network Access
+
+-OSI Model Layer
+Application
+Presentation
+Session
+Transport
+Network
+Data link
+Physical
+
+-Exam Module 6 Done
