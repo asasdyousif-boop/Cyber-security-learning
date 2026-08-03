@@ -1,4 +1,4 @@
-Cisco Network Technician - Module 4 -
+Cisco Network Technician / Network Basic - Module 4 -
 Build a Home Network
 ------------------------------------------------
 -Components of a Home Network

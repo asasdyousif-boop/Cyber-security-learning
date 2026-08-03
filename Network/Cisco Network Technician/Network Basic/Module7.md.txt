@@ -1,0 +1,35 @@
+Cisco Network Technician /Network Basic - Module 7 - 
+The Access Layer 
+--------------------------------------------------
+
+-The process of placing one message format (the letter) inside another message format (the envelope) is called encapsulation. De-encapsulation occurs when the process is reversed by the recipient and the letter is removed from the envelope.
+
+- Purpose of the Access Layer
+- Access Layer switches
+- Connecting end devices
+- Ethernet switching
+- MAC address learning
+- Switching tables (MAC Address Tables)
+- Broadcast, unicast, and multicast traffic
+- VLAN basics
+- Port security concepts
+- Network segmentation
+- Basic troubleshooting at the Access Layer
+
+Important Concepts
+
+- Access switches forward frames based on MAC addresses.
+- Each switch builds a MAC Address Table by learning source MAC addresses.
+- VLANs divide a network into separate logical networks to improve security and performance.
+- Port Security helps prevent unauthorized devices from connecting to the network.
+- The Access Layer provides high-speed connectivity for end devices.
+
+Skills Learned
+
+- Explain the role of the Access Layer.
+- Identify common Access Layer devices.
+- Understand how switches learn and forward Ethernet frames.
+- Describe the purpose of VLANs.
+- Explain basic switch security features.
+
+-Exam Done.

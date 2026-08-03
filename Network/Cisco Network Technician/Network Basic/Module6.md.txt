@@ -1,0 +1,23 @@
+Cisco Network Technician / Network Basic - Module 6 -
+Network Media
+--------------------------------------------------------
+
+Topics Covered
+- Copper cabling (UTP, STP, Coaxial)
+- Fiber-optic cabling (Single-mode & Multi-mode)
+- Wireless network media
+- Ethernet cable standards
+- Cable connectors and pinouts
+- Network media selection
+- Advantages and disadvantages of each media type
+
+Learning Outcomes
+
+After completing this module, I can:
+
+- Identify different network media types.
+- Compare copper, fiber, and wireless technologies.
+- Choose the appropriate media for different network environments.
+- Understand basic cable standards and connectors.
+
+-Exam Done
