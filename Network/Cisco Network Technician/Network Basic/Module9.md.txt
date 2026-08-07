@@ -1,0 +1,59 @@
+Cisco Network Technician\Network Basic - Module 9 -
+IPv4 and Network Segmentation
+-------------------------------------------------------
+IPv4 Unicast, Broadcast, Multicast.
+-Unicast transmission refers to one device sending a message to one other device in one-to-one communications.
+
+-Broadcast transmission refers to a device sending a message to all the devices on a network in one-to-all communications.
+
+-A broadcast packet has a destination IP address with all ones (1s) in the host portion, or 32 one (1) bits.
+
+-IPv4 uses broadcast packets. However, there are no broadcast packets with IPv6.
+
+-Multicast transmission reduces traffic by allowing a host to send a single packet 
+to a selected set of hosts that subscribe to a multicast group.
+
+-A multicast packet is a packet with a destination IP address that is a multicast address. 
+IPv4 has reserved the 224.0.0.0 to 239.255.255.255 addresses as a multicast range.
+
+-Routing protocols such as OSPF use multicast transmissions.
+
+IPv4 Types.
+-Public IPv4 addresses are addresses which are globally routed between internet service provider (ISP) routers.
+
+-not all available IPv4 addresses can be used on the internet. There are blocks of addresses called 
+private addresses that are used by most organizations to assign IPv4 addresses to internal hosts.
+
+-NAT is used to translate between private IPv4 and public IPv4 addresses. This is usually done on the router that connects the internal network to the ISP network. Private IPv4 addresses in the organization’s intranet will be translated to public IPv4 addresses before routing to the internet.
+
+-These are the private IPv4 address ranges; otherwise, the address is public.
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+-Loopback addresses (127.0.0.0 /8 or 127.0.0.1 to 127.255.255.254) are more commonly identified as only 127.0.0.1.
+ These are special addresses used by a host to direct traffic to itself. 
+
+-The RFC divided the unicast ranges into specific classes as follows:
+Class A (0.0.0.0/8 to 127.0.0.0/8)
+Designed to support extremely large networks.used a fixed /8 prefix 
+Class B (128.0.0.0 /16 - 191.255.0.0 /16)
+Designed to support the needs of moderate to large size networks.used a fixed /12 prefix
+Class C (192.0.0.0 /24 - 223.255.255.0 /24)
+Designed to support small networks.used a fixed /24 prefix
+
+-In the mid-1990s, with the advent of the World Wide Web (WWW), the use of classful addressing was discontinued.
+
+Network Segmentation.
+
+-Routers do not propagate broadcasts. When a router receives a broadcast, it does not forward it out other interfaces.
+
+-Problems with Large Broadcast Domains.
+A Large Broadcast Domain,A problem with a large broadcast domain is that these hosts can generate 
+excessive broadcasts and negatively affect the network.
+
+-Communicating Between Networks
+The solution is to reduce the size of the network to create smaller broadcast domains in a process called subnetting. These smaller network spaces are called subnets.
+
+-Done Exam.
+
