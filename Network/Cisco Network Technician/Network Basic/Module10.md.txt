@@ -1,0 +1,24 @@
+Cisco Network Technician\Network Basic - Module 10 -
+IPv6 Addressing Format and Rules.
+--------------------------------------------------------------
+
+-IPv6 is designed to be the successor to IPv4. IPv6 has a larger 128-bit address space, 
+providing 340 undecillion (i.e., 340 followed by 36 zeroes) possible addresses.
+
+-hexadecimal numbers. This base sixteen number system uses the digits 0 to 9 and the letters A to F:
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+-The first rule to help reduce the notation of IPv6 addresses is to omit any leading Os (zeros) in any hextet. Here are
+four examples of ways to omit leading zeros:
+
+. 01ab can be represented as 1ab
+. 09f0 can be represented as 9f0
+. 0a00 can be represented as a00
+. 00ab can be represented as ab
+
+-The second rule to help reduce the notation of IPv6 addresses is that a double colon ( :: ) can replace any single, contiguous string of one
+or more 16-bit hextets consisting of all zeros. For example, 2001:db8:cafe:1:0:0:0:1 (leading Os omitted) could be represented as
+2001:db8:cafe:1 :: 1. The double colon ( :: ) is used in place of the three all-0 hextets (0:0:0).
+2001:db8 :: abcd :: 1234.
+
+-Exam Done.
