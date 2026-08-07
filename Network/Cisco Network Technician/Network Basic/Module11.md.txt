@@ -1,0 +1,19 @@
+Cisco Network Technician\Network Basic - Module 11 -
+Dynamic Addressing with DHCP
+----------------------------------------------------------
+
+-IPv4 addresses can be assigned either statically or dynamically.
+
+With a static assignment, the network administrator must manually configure the network information for a host. At a minimum, this includes the following:
+
+IP address - This identifies the host on the network.
+Subnet mask - This is used to identify the network on which the host is connected.
+Default gateway - This identifies the networking device that the host uses to access the internet or another remote network.
+
+-Dynamic IPv4 Address Assignment
+DHCP automatically assigns addressing information such as IPv4 address, subnet mask, default gateway, and other configuration information.
+
+-DHCP is generally the preferred method of assigning IPv4 addresses to hosts on large networks
+ because it reduces the burden on network support staff and virtually eliminates entry errors.
+
+-Exam Done.
