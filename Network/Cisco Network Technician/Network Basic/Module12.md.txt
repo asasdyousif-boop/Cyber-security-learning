@@ -1,0 +1,54 @@
+Cisco Network Technician\Network Basic - Module 12 -
+Gateways to Other Network
+------------------------------------------------------
+Network Boundaries.
+-The router provides a gateway through which hosts on one network can communicate with hosts on different networks. 
+Each interface on a router is connected to a separate network.
+
+-The IPv4 address assigned to the interface identifies which local network is connected directly to it.
+
+- all hosts on the network can use that IPv4 address to forward messages to hosts located at the ISP and
+s get access to hosts on the internet. Wireless routers are usually set to be DHCP servers by default.
+
+-A network boundary separates one network from another. When a computer wants to communicate 
+with a device on another network, it sends the traffic through a router.
+
+-The router interface connected to the local network is called the default gateway. The host needs 
+the IP address of the default gateway to communicate with devices outside its local network.
+
+-If the destination is on the same network, the host can communicate directly with it. 
+If the destination is on another network, the packet is sent to the default gateway.
+
+Routers as Gateways
+
+-A router connects different IP networks together. It receives packets and decides where they should go.
+
+-The default gateway is usually the IP address of the router interface that is connected to the local network.
+
+Network Address Translation (NAT)
+
+-NAT (Network Address Translation) is used to translate private IP addresses into public IP addresses.
+
+-Private IP addresses are used inside local networks and cannot be routed directly on the Internet.
+ The router uses NAT so that devices with private addresses can access the Internet.
+
+-NAT also allows many devices in a local network to share one public IP address.
+
+How NAT Works
+When a device sends data to the Internet:
+1. The device sends a packet using its private IP address.
+2. The packet reaches the router.
+3. The router translates the private IP address into a public IP address.
+4. The packet is sent to the Internet.
+5. When the response comes back, the router translates it back and sends it to the correct device.
+
+Key Terms
+
+- Router: Connects different networks.
+- Gateway: A device that provides access to another network.
+- Default Gateway: The router address used by a host to reach other networks.
+- NAT: Translates private IP addresses into public IP addresses.
+- Private IP: Used inside a local network.
+- Public IP: Used to communicate over the Internet.
+
+-Exam Done

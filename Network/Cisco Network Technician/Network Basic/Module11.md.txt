@@ -10,10 +10,81 @@ IP address - This identifies the host on the network.
 Subnet mask - This is used to identify the network on which the host is connected.
 Default gateway - This identifies the networking device that the host uses to access the internet or another remote network.
 
--Dynamic IPv4 Address Assignment
-DHCP automatically assigns addressing information such as IPv4 address, subnet mask, default gateway, and other configuration information.
+1. Static IP Addressing
 
--DHCP is generally the preferred method of assigning IPv4 addresses to hosts on large networks
- because it reduces the burden on network support staff and virtually eliminates entry errors.
+A static IP address is configured manually by the network administrator.
 
+When using a static IP address, we usually need to configure:
+
+- IP address
+- Subnet mask
+- Default gateway
+- DNS server
+
+Static addressing can be useful for devices that need a fixed IP address, such as servers and network devices.
+
+2. Dynamic IP Addressing
+
+With dynamic addressing, the device gets its network information automatically.
+
+Instead of configuring every device manually, we can use a DHCP server to provide the required information.
+
+This makes network configuration easier, especially when there are many devices.
+
+3. DHCP
+
+DHCP (Dynamic Host Configuration Protocol) automatically gives devices network configuration information.
+
+A DHCP server can provide:
+
+- IP address
+- Subnet mask
+- Default gateway
+- DNS server address
+
+When a device connects to the network, it can request an IP address from the DHCP server.
+
+4. DHCPv4
+
+DHCPv4 is used to automatically assign IPv4 addresses to devices.
+
+The basic DHCP process is:
+
+1. DHCP Discover – The client looks for a DHCP server.
+2. DHCP Offer – The server offers an IP address.
+3. DHCP Request – The client requests the offered address.
+4. DHCP Acknowledgment – The server confirms the assignment.
+
+This process is sometimes called DORA:
+
+Discover → Offer → Request → Acknowledge
+
+5. DHCP Server
+
+A DHCP server manages a pool of IP addresses. When a device requests an address, the server can assign one from this pool.
+
+The address is usually given for a specific period of time called a lease.
+
+When the lease expires, the device can request the address again.
+
+6. DHCP on a Wireless Router
+
+A home wireless router can work as a DHCP server.
+
+For example, a router can automatically give connected devices addresses such as:
+
+- 192.168.1.10
+- 192.168.1.11
+- 192.168.1.12
+
+This means that users do not have to manually configure an IP address for every device.
+
+Key Terms
+
+- Static Addressing: IP information is configured manually.
+- Dynamic Addressing: IP information is assigned automatically.
+- DHCP: A protocol used to automatically configure network settings.
+- DHCP Server: Provides IP addresses and other network information.
+- DHCPv4: DHCP used with IPv4 networks.
+- Lease: The period of time a device can use an assigned IP address.
 -Exam Done.

@@ -21,4 +21,81 @@ Network
 Data link
 Physical
 
+1. Communication Rules
+
+Network communication needs rules so that devices can understand each other.
+
+These rules define things such as:
+
+- Message format
+- Message size
+- Timing
+- Encoding
+- Message patterns
+
+These rules help make communication between devices organized and successful.
+
+2. Network Protocols
+
+A protocol is a set of rules used for communication between devices.
+
+Protocols define how data is created, sent, received, and understood.
+
+Different protocols are used for different network functions, such as web communication, addressing, and data delivery.
+
+3. Standards
+
+Standards are important because they allow devices from different manufacturers to communicate with each other.
+
+Standards help make networks easier to design, develop, and maintain.
+
+Standards organizations help create and maintain these rules for networking technologies.
+
+4. OSI Model
+
+The OSI model is a reference model that helps explain how network communication works.
+
+It has seven layers:
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+Each layer has a specific role in the communication process.
+
+5. TCP/IP Model
+
+The TCP/IP model is another model used to describe network communication.
+
+Its main layers are:
+
+- Network Access
+- Internet
+- Transport
+- Application
+
+The TCP/IP model is widely used in modern computer networks.
+
+6. Ethernet
+
+Ethernet is one of the most common technologies used in local area networks.
+
+It defines how data is transmitted over a network and works mainly at the Physical and Data Link layers of the OSI model.
+
+Ethernet also uses MAC addresses to identify devices on the local network.
+
+
+Key Terms
+
+- Protocol: A set of rules for network communication.
+- Standards: Rules that allow different devices and technologies to work together.
+- OSI Model: A seven-layer reference model for network communication.
+- TCP/IP Model: A model used to describe communication on TCP/IP networks.
+- Ethernet: A common technology used in local area networks.
+- MAC Address: A physical address used to identify a network interface.
+
 -Exam Module 5 Done

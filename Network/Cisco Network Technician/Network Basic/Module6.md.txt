@@ -1,23 +1,78 @@
 Cisco Network Technician / Network Basic - Module 6 -
 Network Media
 --------------------------------------------------------
+1. Network Media
 
-Topics Covered
-- Copper cabling (UTP, STP, Coaxial)
-- Fiber-optic cabling (Single-mode & Multi-mode)
-- Wireless network media
-- Ethernet cable standards
-- Cable connectors and pinouts
-- Network media selection
-- Advantages and disadvantages of each media type
+Network media is the way that data travels from one device to another.
 
-Learning Outcomes
+There are two main types of media:
 
-After completing this module, I can:
+- Wired media
+- Wireless media
 
-- Identify different network media types.
-- Compare copper, fiber, and wireless technologies.
-- Choose the appropriate media for different network environments.
-- Understand basic cable standards and connectors.
+Wired media uses physical cables, while wireless media uses radio signals.
 
+2. Copper Cables
+
+Copper cables are commonly used in networks. They send data using electrical signals.
+
+The main types of copper cables are:
+
+- UTP (Unshielded Twisted Pair)
+- STP (Shielded Twisted Pair)
+- Coaxial cable
+
+UTP is one of the most common cables used in Ethernet networks.
+
+Twisted pairs help reduce interference between the wires.
+
+3. Fiber-Optic Cables
+
+Fiber-optic cables use light to transmit data instead of electrical signals.
+
+They have some advantages:
+
+- High speed
+- Long-distance communication
+- Less affected by electromagnetic interference
+- Good for large amounts of data
+
+Fiber is commonly used for connections that need high bandwidth and long distances.
+
+4. Wireless Media
+
+Wireless networks use radio waves to transmit data without physical cables.
+
+Examples include:
+
+- Wi-Fi
+- Bluetooth
+- Cellular networks
+
+Wireless communication is useful because devices can connect without needing a cable.
+
+However, wireless signals can be affected by distance, obstacles, and interference.
+
+5. Choosing Network Media
+
+The type of media depends on the network requirements.
+
+For example, copper cables can be a good choice for normal Ethernet connections, while fiber-optic cables are better for high-speed and long-distance connections.
+
+Wireless media is useful when mobility and easy installation are important.
+
+Conclusion
+
+In this module, I learned that network media is an important part of communication between network devices.
+
+I learned about copper cables, fiber-optic cables, and wireless media. Each type has different advantages, so the best choice depends on the speed, distance, cost, and environment of the network.
+
+Key Terms
+
+- Network Media: The path used to transmit data.
+- UTP: Unshielded Twisted Pair cable.
+- STP: Shielded Twisted Pair cable.
+- Fiber Optic: Uses light to transmit data.
+- Wireless Media: Uses radio signals to transmit data.
+- Interference: Something that can disturb or reduce the quality of a signal.
 -Exam Done
