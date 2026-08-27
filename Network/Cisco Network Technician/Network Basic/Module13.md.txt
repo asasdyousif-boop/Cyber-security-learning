@@ -1,0 +1,49 @@
+Cisco Network Technician \ Network Basic - Module 13 -
+The ARP Process
+------------------------------------------------------------
+13.1 MAC and IP
+There are two important addresses used by devices on an Ethernet network:
+
+- MAC Address: A physical address used for communication between network interfaces on the same Ethernet network.
+- IP Address: A logical address used to identify the source and destination of a packet.
+
+The MAC address is used in the Ethernet frame, while the IP address is used in the IP packet.
+
+When the destination is on a remote network, the destination MAC address used by the local device is the MAC address of the default gateway.
+
+13.2 Broadcast Containment
+
+A broadcast is a message that is sent to all devices in the same broadcast domain.
+
+ARP requests use broadcast frames because the sending device does not know the MAC address of the destination device.
+
+Routers are used to separate networks into different broadcast domains. This helps contain broadcast traffic and prevents it from affecting devices on other networks.
+
+Containing broadcasts is important because too much broadcast traffic can use network resources and reduce network performance.
+
+13.3 The ARP Process
+
+ARP (Address Resolution Protocol) is used to discover the MAC address associated with an IPv4 address on the local network.
+
+The ARP process has three main steps:
+
+1. The sending host creates an ARP request and sends it using the broadcast MAC address.
+2. All hosts on the local network receive the request. The host with the matching IPv4 address sends its MAC address back to the sender.
+3. The sending host receives the response and stores the IPv4 and MAC address information in its ARP table.
+
+After the MAC address is stored in the ARP table, the host can use it to send frames to the destination without making another ARP request.
+
+ARP entries are kept in the ARP table for a limited time and are removed when they are no longer needed.
+
+Key Terms
+
+- MAC Address: Physical address used on an Ethernet network.
+- IP Address: Logical address used to identify a device.
+- ARP: Address Resolution Protocol.
+- ARP Request: A request used to find a MAC address.
+- ARP Table: Stores IPv4 and MAC address information.
+- Broadcast: A message sent to all devices in a broadcast domain.
+- Broadcast Domain: A part of the network where broadcast traffic can reach devices.
+- Default Gateway: The router interface used to reach other networks. 
+
+-Exam Done.
