@@ -1,6 +1,6 @@
-Network Technician Network Basic - Module 1 -
+Network Technician / Network Basic - Module 1 -
 Communication in a Connected World
-
+.................................................................
 Network Type
   
 -The internet is a worldwide collection of interconnected networks (internetwork or internet for short), cooperating with each other to exchange information using common standards. Through telephone wires, fiber-optic cables, wireless transmissions, and satellite links, internet users can exchange information in a variety of forms.
