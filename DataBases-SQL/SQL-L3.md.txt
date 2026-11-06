@@ -1,0 +1,120 @@
+SQL – Lecture 3
+
+ALTER, TRUNCATE and DROP
+
+1. ALTER TABLE
+
+ALTER TABLE is used to modify the structure of an existing table.
+
+A. Add a Column
+
+Used to add a new column to a table.
+
+Syntax:
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+Example:
+
+ALTER TABLE users
+ADD gender VARCHAR(255);
+
+B. Drop a Column
+
+Used to remove a column from a table.
+
+Syntax:
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+Example:
+
+ALTER TABLE users
+DROP COLUMN gender;
+
+C. Modify Data Type
+
+Used to change the data type of an existing column.
+
+Syntax:
+
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype;
+
+Example:
+
+ALTER TABLE users
+ALTER COLUMN name CHAR(10);
+
+Note: The new data type must be compatible with the existing data.
+
+2. Adding Constraints Using ALTER TABLE
+
+ALTER TABLE can also be used to add constraints to an existing table.
+
+Example – Add UNIQUE:
+
+ALTER TABLE users
+ADD CONSTRAINT users_uq UNIQUE(email);
+
+Example – Add PRIMARY KEY:
+
+ALTER TABLE failedlogins
+ADD CONSTRAINT failedlogins_PK PRIMARY KEY(loginID);
+
+Example – Add FOREIGN KEY:
+
+ALTER TABLE failedlogins
+ADD CONSTRAINT users_failedlogins_FK
+FOREIGN KEY(User_id)
+REFERENCES users(User_id);
+
+3. Removing Constraints
+
+DROP CONSTRAINT is used to remove an existing constraint.
+
+Syntax:
+
+ALTER TABLE table_name
+DROP CONSTRAINT constraint_name;
+
+Example:
+
+ALTER TABLE users
+DROP CONSTRAINT users_uq;
+
+4. TRUNCATE TABLE
+
+TRUNCATE TABLE is used to delete all records inside a table without deleting the table itself.
+
+Syntax:
+
+TRUNCATE TABLE table_name;
+
+Example:
+
+TRUNCATE TABLE users;
+
+The table remains, but its data is removed.
+
+5. DROP TABLE
+
+DROP TABLE is used to delete an existing table from the database.
+
+Syntax:
+
+DROP TABLE table_name;
+
+Example:
+
+DROP TABLE users;
+
+This deletes the table and its structure.
+
+6. Important Differences
+
+- ALTER: Modifies the structure of a table.
+- TRUNCATE: Deletes all records but keeps the table.
+- DROP: Deletes the entire table, including its structure and data.

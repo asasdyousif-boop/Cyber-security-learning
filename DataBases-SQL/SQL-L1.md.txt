@@ -1,0 +1,95 @@
+SQL – Lecture 1
+
+1. Database
+
+A database is an organized collection of data that can be stored, managed, and retrieved easily.
+
+Examples: Student records, bank data, and e-commerce.
+
+2. DBMS and RDBMS
+
+- DBMS: Software used to create, store, manage, and retrieve data.
+- RDBMS: A type of DBMS that stores data in tables (rows and columns) and connects tables using keys.
+
+3. SQL
+
+SQL (Structured Query Language) is a language used to manage and manipulate data in relational databases.
+
+SQL can:
+
+- Retrieve data.
+- Insert new records.
+- Update existing data.
+- Delete records.
+- Create databases and tables.
+
+Basic Notes:
+
+- SQL is not case-sensitive.
+- Keywords are usually written in uppercase.
+- Statements commonly end with a semicolon (;).
+- Text values are written inside single quotes (' ').
+
+4. SQL Server and SSMS
+
+- SQL Server: Microsoft's system for storing and managing databases.
+- SSMS: A graphical tool used to manage SQL Server and write SQL commands.
+
+5. Important Terms
+
+- Data: Raw facts and figures.
+- Query: A request to retrieve or manipulate data.
+- Table: Stores data in rows and columns.
+- Record: A single row in a table.
+- Field: A column in a table.
+- NULL: Represents a missing or unknown value.
+
+6. SQL Data Types
+
+Numeric Types:
+
+- INT: Whole numbers.
+- SMALLINT: Small-range integers.
+- BIGINT: Large-range integers.
+- DECIMAL: Fixed-point numbers.
+- FLOAT: Floating-point numbers.
+- REAL: Real numbers.
+
+Character Types:
+
+- CHAR(n): Fixed-length text.
+- VARCHAR(n): Variable-length text.
+- TEXT: Large text.
+- NVARCHAR(n): Unicode text, suitable for Arabic and other languages.
+
+Date and Time Types:
+
+- DATE: Stores dates.
+- TIME: Stores time.
+- DATETIME: Stores both date and time.
+
+7. SQL Command Categories
+
+- DDL: Defines database structure (CREATE, ALTER, DROP, TRUNCATE).
+- DML: Manipulates data (INSERT, UPDATE, DELETE).
+- DQL: Retrieves data (SELECT).
+- DCL: Controls permissions (GRANT, REVOKE).
+- TCL: Manages transactions (COMMIT, ROLLBACK, SAVEPOINT).
+
+8. Creating a Database
+
+CREATE DATABASE cybersecurity;
+
+9. Selecting a Database
+
+USE cybersecurity;
+
+10. Creating a Table
+
+CREATE TABLE users (
+id INT,
+name VARCHAR(100),
+email VARCHAR(100),
+age INT
+);
+

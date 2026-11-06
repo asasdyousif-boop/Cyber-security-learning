@@ -1,0 +1,91 @@
+SQL – Lecture 2
+
+IDENTITY and Constraints
+
+1. IDENTITY
+
+IDENTITY is a property in SQL Server that automatically generates unique numeric values, usually used for primary keys.
+
+It has two main values:
+
+- Seed: The first generated value.
+- Increment: The value added to the previous number.
+
+Example:
+
+userID INT IDENTITY(1,1)
+
+2. Constraints
+
+Constraints are rules applied to table columns to control the data that can be inserted or updated.
+
+They help maintain data integrity and consistency.
+
+3. Types of Constraints
+
+- NOT NULL: Prevents a column from having NULL values.
+- UNIQUE: Ensures that values are not duplicated.
+- PRIMARY KEY: Combines NOT NULL and UNIQUE to identify each record.
+- FOREIGN KEY: Connects two tables and maintains relationships between them.
+- CHECK: Ensures that values satisfy a specific condition.
+- DEFAULT: Provides a default value when no value is entered.
+
+4. Column-Level Constraints
+
+Constraints can be written directly beside the column definition.
+
+Example:
+
+CREATE TABLE users (
+userID INT IDENTITY(1,1) PRIMARY KEY,
+username VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE,
+age INT CHECK (age >= 18),
+country VARCHAR(10) DEFAULT 'Iraq'
+);
+
+5. Table-Level Constraints
+
+Constraints can also be defined separately inside the CREATE TABLE statement using CONSTRAINT.
+
+Example:
+
+CREATE TABLE users (
+userID INT IDENTITY(1,1),
+username VARCHAR(100) NOT NULL,
+phone INT,
+age INT,
+
+CONSTRAINT user_pk PRIMARY KEY (userID),
+CONSTRAINT user_uq UNIQUE (phone),
+CONSTRAINT user_chc CHECK (age >= 18)
+
+);
+
+6. FOREIGN KEY
+
+A FOREIGN KEY is used to connect two tables.
+
+It references a key in another table and helps maintain referential integrity.
+
+Example:
+
+First, create the users table:
+
+CREATE TABLE users (
+userID INT IDENTITY(1,1) PRIMARY KEY,
+username VARCHAR(100) NOT NULL
+);
+
+Then, create the alerts table:
+
+CREATE TABLE alerts (
+alertID INT IDENTITY(1,1) PRIMARY KEY,
+alertname VARCHAR(50) NOT NULL,
+userID INT FOREIGN KEY REFERENCES users(userID)
+);
+
+The userID column in the alerts table references the userID column in the users table.
+
+This allows each alert to be associated with a specific user.
+
