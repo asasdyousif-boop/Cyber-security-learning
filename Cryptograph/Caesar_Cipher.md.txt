@@ -1,0 +1,23 @@
+Caesar Cipher
+
+Description
+
+The Caesar Cipher is a substitution encryption technique that shifts each letter by a fixed number of positions in the alphabet.
+
+Encryption
+
+1. Choose a numeric key.
+2. Shift each plaintext letter forward by the key value.
+3. Replace each letter with its new position.
+
+Decryption
+
+1. Use the same key.
+2. Shift each ciphertext letter backward by the key value.
+3. Recover the original plaintext.
+
+Example
+
+- Plaintext: "HELLO"
+- Key: "3"
+- Ciphertext: "KHOOR"

@@ -1,0 +1,21 @@
+One-Time Pad
+
+Description
+
+The One-Time Pad is an encryption technique that uses a random key equal in length to the plaintext.
+
+Encryption
+
+1. Generate a random key equal in length to the plaintext.
+2. Combine the plaintext with the key using XOR or modular addition.
+3. The result is the ciphertext.
+
+Decryption
+
+1. Use the same key.
+2. Apply the corresponding reverse operation.
+3. Recover the original plaintext.
+
+Important Note
+
+The key must be random, secret, as long as the message, and used only once.

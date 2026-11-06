@@ -1,0 +1,19 @@
+Columnar Transposition Cipher
+
+Description
+
+The Columnar Transposition Cipher rearranges plaintext letters using columns and a keyword.
+
+Encryption
+
+1. Choose a keyword.
+2. Write the plaintext in rows beneath the keyword.
+3. Arrange the columns according to the alphabetical order of the keyword letters.
+4. Read the columns in the correct order to produce the ciphertext.
+
+Decryption
+
+1. Use the same keyword.
+2. Reconstruct the columns in their correct order.
+3. Read the table row by row.
+4. Recover the original plaintext.

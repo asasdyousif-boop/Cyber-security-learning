@@ -1,0 +1,17 @@
+Vigenère Cipher
+
+Description
+
+The Vigenère Cipher is a polyalphabetic substitution cipher that uses a keyword for encryption.
+
+Encryption
+
+1. Repeat the keyword until it matches the plaintext length.
+2. Combine each plaintext letter with its corresponding key letter.
+3. Use the resulting values to produce the ciphertext.
+
+Decryption
+
+1. Repeat the same keyword to match the ciphertext length.
+2. Reverse the letter combination using the key.
+3. Recover the original plaintext.

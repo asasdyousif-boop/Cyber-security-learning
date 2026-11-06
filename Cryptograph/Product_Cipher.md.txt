@@ -1,0 +1,17 @@
+Product Cipher
+
+Description
+
+A Product Cipher combines two or more encryption techniques, commonly substitution and transposition.
+
+Encryption
+
+1. Apply a substitution operation to the plaintext.
+2. Apply a transposition operation to the result.
+3. The final output is the ciphertext.
+
+Decryption
+
+1. Reverse the transposition operation.
+2. Reverse the substitution operation.
+3. Recover the original plaintext.

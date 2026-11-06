@@ -1,0 +1,18 @@
+Rail Fence Cipher
+
+Description
+
+The Rail Fence Cipher is a transposition cipher that rearranges letters in a zigzag pattern across multiple rows.
+
+Encryption
+
+1. Choose the number of rails.
+2. Write the plaintext in a zigzag pattern.
+3. Read the letters row by row to produce the ciphertext.
+
+Decryption
+
+1. Use the same number of rails.
+2. Reconstruct the zigzag pattern.
+3. Fill the pattern with ciphertext letters.
+4. Read the letters in zigzag order to recover the plaintext.

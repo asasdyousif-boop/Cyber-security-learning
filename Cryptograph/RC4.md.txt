@@ -1,0 +1,21 @@
+RC4
+
+Description
+
+RC4 is a stream cipher that generates a pseudorandom key stream.
+
+Encryption
+
+1. Initialize RC4 using the secret key.
+2. Generate a pseudorandom key stream.
+3. XOR the plaintext with the key stream to produce ciphertext.
+
+Decryption
+
+1. Initialize RC4 using the same secret key.
+2. Generate the same key stream.
+3. XOR the ciphertext with the key stream to recover the plaintext.
+
+Security Note
+
+RC4 is considered insecure and is not recommended for modern encryption systems.

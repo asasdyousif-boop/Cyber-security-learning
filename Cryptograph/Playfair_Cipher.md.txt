@@ -1,0 +1,23 @@
+Playfair Cipher
+
+Description
+
+The Playfair Cipher is a substitution cipher that encrypts pairs of letters using a 5×5 key matrix.
+
+Encryption
+
+1. Create a 5×5 matrix using a keyword.
+2. Divide the plaintext into pairs of letters.
+3. Apply the Playfair rules:
+   - Same row: take the letter to the right.
+   - Same column: take the letter below.
+   - Different row and column: use the rectangle rule.
+
+Decryption
+
+1. Divide the ciphertext into pairs.
+2. Apply the reverse rules:
+   - Same row: take the letter to the left.
+   - Same column: take the letter above.
+   - Different row and column: use the rectangle rule.
+3. Recover the original plaintext.

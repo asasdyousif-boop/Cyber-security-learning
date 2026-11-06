@@ -1,0 +1,42 @@
+Security Fundamentals
+
+1. Computer Security
+Computer security protects computer systems, networks, and data from unauthorized access, damage, or attacks.
+
+2. Core Security Requirements
+Confidentiality: Protecting information from unauthorized access.
+Integrity: Ensuring information is accurate and not modified without authorization.
+Availability: Ensuring systems and data are accessible when needed.
+
+3. Basic Security Concepts
+Threat: A potential danger to a system.
+Vulnerability: A weakness that can be exploited.
+Attack: An attempt to damage or access a system without authorization.
+Risk: The possibility of loss or damage.
+
+4. Common Attacks
+DoS: Attempts to make a service unavailable.
+DDoS: Uses multiple systems to attack a target.
+Password Attacks: Attempts to discover passwords.
+Social Engineering: Tricks users into revealing information.
+
+5. Malware
+Malware is malicious software designed to harm or access computer systems.
+Common types:
+Virus
+Worm
+Trojan Horse
+Spyware
+Ransomware
+
+6. Password Security
+Strong passwords help protect accounts and systems. Passwords should be difficult to guess and should not be reused across accounts.
+7. Protection Methods
+Use strong passwords.
+Install security updates.
+Use antivirus software.
+Enable firewalls.
+Back up important data.
+Avoid suspicious links and files.
+8. Attacker Profiles
+Attackers may have different skills, motivations, and goals. Their activities can range from unauthorized access to stealing information or disrupting services
