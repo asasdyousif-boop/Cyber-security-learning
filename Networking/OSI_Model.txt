@@ -1,0 +1,157 @@
+OSI Model – Seven Layers
+
+Introduction
+
+OSI stands for Open Systems Interconnection. It is a model that explains how data is transmitted between devices through seven layers.
+
+1. Application Layer
+
+- The closest layer to the user.
+- Provides network services to applications.
+- Examples: HTTP, HTTPS, FTP, DNS, SMTP.
+
+2. Presentation Layer
+
+- Translates data into a suitable format.
+- Converts data formats when needed.
+- Handles encryption, decryption, and compression.
+- Deals with data representation and encoding.
+
+3. Session Layer
+
+- Establishes, manages, and terminates communication sessions.
+- Controls communication sessions between applications.
+- Supports session synchronization.
+- Authentication and authorization are important security concepts, although they are not exclusive functions of this layer.
+
+Note: The first three layers are commonly called the Software Layers.
+
+4. Transport Layer
+
+Responsible for end-to-end data delivery.
+
+Main functions:
+
+- Segmentation: Divides data into smaller segments.
+- Port Numbers: Identify the sending and receiving applications.
+- Sequence Numbers: Help arrange segments in the correct order.
+- Flow Control: Controls the amount and speed of transmitted data.
+- Reassembly: Reconstructs data at the destination.
+
+Main Protocols
+
+TCP (Transmission Control Protocol)
+
+- Connection-oriented.
+- Reliable data transmission.
+- Uses acknowledgments to confirm received data.
+- Maintains correct data order.
+- Suitable when accuracy and reliability are important.
+
+UDP (User Datagram Protocol)
+
+- Connectionless.
+- Does not guarantee delivery or data order.
+- Has less overhead and is generally faster.
+- Suitable for applications that prioritize speed, such as live streaming and online gaming.
+
+5. Network Layer
+
+Responsible for logical addressing and routing.
+
+Main functions:
+
+- Logical Addressing: Uses source and destination IP addresses.
+- Routing: Determines the best path for packets to reach their destination.
+- Converts transport-layer segments into packets.
+
+Main device: Router.
+
+Data Unit: Packet.
+
+6. Data Link Layer
+
+Responsible for communication over a local network link.
+
+Main functions:
+
+- Physical Addressing: Uses MAC addresses.
+- Framing: Organizes packets into frames.
+- Media Access Control: Controls how devices access the transmission medium.
+- Error Detection: Detects errors in transmitted frames.
+
+MAC Address
+
+- Used to identify a network interface.
+- Usually 48 bits (6 bytes).
+- Written as 12 hexadecimal digits.
+- Also called a physical address.
+
+Error Detection Methods
+
+1. Parity Check: Uses a parity bit to detect certain errors.
+2. Checksum: Calculates a value to help detect data corruption.
+3. CRC (Cyclic Redundancy Check): Uses mathematical calculations to detect errors in transmitted data.
+
+CSMA (Carrier Sense Multiple Access)
+
+A media access method in which devices listen to the communication medium before transmitting data to reduce transmission conflicts.
+
+Encapsulation and Decapsulation
+
+- Frame Encapsulation: Adds a header and trailer to create a frame.
+- Frame Decapsulation: Removes the header and trailer when receiving the frame.
+
+Main devices: Switches and Bridges.
+
+Data Unit: Frame.
+
+7. Physical Layer
+
+The final layer, responsible for transmitting raw bits (0s and 1s).
+
+Main functions:
+
+- Converts data into signals.
+- Transmits signals through communication media.
+- Defines physical characteristics such as cables, connectors, and signal types.
+
+Signal types include:
+
+- Electrical signals.
+- Optical signals.
+- Radio signals.
+
+Data Unit: Bits.
+
+Data Encapsulation
+
+When sending data, it moves from Layer 7 down to Layer 1:
+
+- Application, Presentation, Session: Data
+- Transport: Segment (TCP) / Datagram (UDP)
+- Network: Packet
+- Data Link: Frame
+- Physical: Bits
+
+At the receiving device, the reverse process is called Decapsulation.
+
+Quick Review
+
+Layer| Main Concept
+Application| Network Services
+Presentation| Data Format and Encryption
+Session| Session Management
+Transport| TCP, UDP, Ports
+Network| IP Addressing and Routing
+Data Link| MAC Address and Frames
+Physical| Bits and Signals
+
+Importance in Cybersecurity
+
+Understanding the OSI Model helps in:
+
+- Network troubleshooting.
+- Analyzing network traffic.
+- Understanding communication protocols.
+- Identifying network-related security issues.	
