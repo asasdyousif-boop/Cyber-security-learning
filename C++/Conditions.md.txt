@@ -1,0 +1,83 @@
+Conditions 
+
+Conditions are used to make decisions in a program depending on whether a condition is true or false.
+
+1. if Statement
+
+Executes code when a condition is true.
+
+int age = 20;
+
+if (age >= 18) {
+    cout << "Adult";
+}
+
+2. if-else Statement
+
+Executes one block if the condition is true, otherwise executes another block.
+
+int number = 5;
+
+if (number > 0) {
+    cout << "Positive";
+} else {
+    cout << "Negative or Zero";
+}
+
+3. if-else if-else
+
+Used to check multiple conditions.
+
+int mark = 85;
+
+if (mark >= 90) {
+    cout << "Excellent";
+} else if (mark >= 70) {
+    cout << "Good";
+} else {
+    cout << "Fail";
+}
+
+4. switch Statement
+
+Used to select one option from multiple cases.
+
+int day = 2;
+
+switch (day) {
+    case 1:
+        cout << "Sunday";
+        break;
+
+    case 2:
+        cout << "Monday";
+        break;
+
+    default:
+        cout << "Invalid Day";
+}
+
+5. Comparison Operators
+
+Operator| Meaning
+"=="| Equal to
+"!="| Not equal to
+">"| Greater than
+"<"| Less than
+">="| Greater than or equal
+"<="| Less than or equal
+
+6. Logical Operators
+
+Operator| Meaning
+"&&"| AND
+`| 
+"!"| NOT
+
+Example:
+
+int age = 20;
+
+if (age >= 18 && age <= 30) {
+    cout << "Allowed";
+}

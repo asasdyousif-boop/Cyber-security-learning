@@ -1,0 +1,70 @@
+Functions 
+A function is a block of code designed to perform a specific task. Functions help organize code and avoid repetition.
+
+1. Function Syntax
+
+returnType functionName(parameters) {
+    // Code
+}
+
+2. Function Without Parameters
+
+void sayHello() {
+    cout << "Hello!";
+}
+
+int main() {
+    sayHello();
+    return 0;
+}
+
+3. Function With Parameters
+
+Parameters allow us to pass data to a function.
+
+void greet(string name) {
+    cout << "Hello " << name;
+}
+
+int main() {
+    greet("Ali");
+    return 0;
+}
+
+4. Function With Return Value
+
+A function can return a value using "return".
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(5, 3);
+    cout << result;
+    return 0;
+}
+
+Output: "8"
+
+5. Function Prototype
+
+A function prototype declares a function before its definition.
+
+int add(int, int);
+
+int main() {
+    cout << add(2, 3);
+    return 0;
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+Important:
+
+- "void": Means the function does not return a value.
+- "return": Sends a value back to the caller.
+- Parameters: Variables defined in the function declaration.
+- Arguments: Actual values passed when calling the function.

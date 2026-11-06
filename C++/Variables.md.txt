@@ -1,0 +1,78 @@
+Variables 
+1. What is a Variable?
+
+A variable is a named storage location in memory used to store data. Each variable has a data type and a value.
+
+2. Variable Declaration
+
+Syntax:
+
+dataType variableName;
+
+Example:
+
+int age;
+float price;
+string name;
+
+3. Variable Initialization
+
+Initialization means giving a variable its first value.
+
+int age = 20;
+float price = 15.5;
+string name = "Ali";
+
+4. Data Types
+
+Data Type| Description| Example
+"int"| Stores integers| "int age = 20;"
+"float"| Stores decimal numbers| "float x = 5.5;"
+"double"| Stores larger-precision decimal numbers| "double y = 10.25;"
+"char"| Stores one character| "char grade = 'A';"
+"string"| Stores text| "string name = "Ali";"
+"bool"| Stores true or false| "bool isStudent = true;"
+
+5. Constants
+
+A constant is a variable whose value cannot be changed after initialization.
+
+const double PI = 3.14159;
+
+6. Changing Variable Values
+
+You can change the value of a variable after declaration.
+
+int age = 20;
+
+age = 25;
+
+cout << age;
+
+Output: "25"
+
+7. Multiple Variable Declaration
+
+You can declare multiple variables of the same data type in one statement.
+
+int x = 10, y = 20, z = 30;
+
+8. Variable Naming Rules
+
+- A variable name must start with a letter or underscore.
+- It cannot start with a number.
+- Spaces are not allowed.
+- C++ keywords cannot be used as variable names.
+- Variable names are case-sensitive.
+
+Example:
+
+int studentAge = 20;
+int number1 = 100;
+
+Important:
+
+- Declaration creates a variable.
+- Initialization gives it an initial value.
+- Assignment changes its value.
+- "const" makes a variable unchangeable.

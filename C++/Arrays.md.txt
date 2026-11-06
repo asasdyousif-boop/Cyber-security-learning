@@ -1,0 +1,63 @@
+Arrays
+
+An array is a collection of elements of the same data type stored under one name.
+
+1. Array Declaration
+
+int numbers[5];
+
+This creates an array that can store 5 integers.
+
+2. Array Initialization
+
+int numbers[5] = {10, 20, 30, 40, 50};
+
+3. Accessing Array Elements
+
+Each element is accessed using its index. Array indexing starts from "0".
+
+int numbers[3] = {10, 20, 30};
+
+cout << numbers[0]; // 10
+cout << numbers[1]; // 20
+cout << numbers[2]; // 30
+
+4. Changing Array Elements
+
+int numbers[3] = {10, 20, 30};
+
+numbers[1] = 50;
+
+The array becomes: "{10, 50, 30}".
+
+5. Using Loops With Arrays
+
+int numbers[5] = {10, 20, 30, 40, 50};
+
+for (int i = 0; i < 5; i++) {
+    cout << numbers[i] << endl;
+}
+
+6. Getting Array Elements From the User
+
+int numbers[3];
+
+for (int i = 0; i < 3; i++) {
+    cin >> numbers[i];
+}
+
+7. Finding Array Size
+
+int numbers[] = {10, 20, 30, 40};
+
+int size = sizeof(numbers) / sizeof(numbers[0]);
+
+cout << size;
+
+Output: "4"
+
+Important:
+
+- Array indexes start from "0".
+- All elements must have the same data type.
+- The array size is fixed after declaration for a normal built-in array.

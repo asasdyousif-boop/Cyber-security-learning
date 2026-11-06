@@ -1,0 +1,66 @@
+Introduction to C++
+
+1. What is C++?
+
+C++ is a general-purpose programming language used to develop software, games, operating systems, and applications.
+
+2. Basic Program Structure
+
+Every C++ program starts execution from the "main()" function.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World!";
+    return 0;
+}
+
+Explanation:
+
+- "#include <iostream>": Allows input and output operations.
+- "using namespace std;": Allows using standard library names without "std::".
+- "int main()": The main function where the program starts.
+- "cout": Prints output to the screen.
+- "return 0;": Ends the program successfully.
+
+3. Output (cout)
+
+"cout" is used to display information on the screen.
+
+cout << "Hello World!";
+cout << 100;
+cout << "Age: " << 20;
+
+4. Input (cin)
+
+"cin" is used to get data from the user.
+
+int age;
+
+cout << "Enter your age: ";
+cin >> age;
+
+cout << "Your age is: " << age;
+
+5. Variables
+
+Variables are used to store data.
+
+int age = 20;
+float price = 10.5;
+double salary = 500.75;
+char grade = 'A';
+string name = "Ali";
+bool isStudent = true;
+
+6. Comments
+
+Comments are notes written inside the code and are ignored by the compiler.
+
+// Single-line comment
+
+/*
+Multi-line
+comment
+*/

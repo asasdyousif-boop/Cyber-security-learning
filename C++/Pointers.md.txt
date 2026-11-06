@@ -1,0 +1,68 @@
+Pointers
+
+A pointer is a variable that stores the memory address of another variable.
+
+1. Pointer Declaration
+
+int number = 10;
+
+int *ptr = &number;
+
+- "int *ptr": Declares a pointer to an integer.
+- "&number": Gets the memory address of the variable.
+- "ptr": Stores the address.
+
+2. Address Operator (&)
+
+The "&" operator is used to get the memory address of a variable.
+
+int x = 10;
+
+cout << &x;
+
+3. Dereference Operator (*)
+
+The "*" operator is used to access the value stored at the address.
+
+int x = 10;
+int *ptr = &x;
+
+cout << *ptr;
+
+Output: "10"
+
+4. Changing Values Using Pointers
+
+int x = 10;
+int *ptr = &x;
+
+*ptr = 20;
+
+cout << x;
+
+Output: "20"
+
+5. Null Pointer
+
+A null pointer does not point to a valid object.
+
+int *ptr = nullptr;
+
+6. Pointers and Arrays
+
+The array name represents the address of its first element in many expressions.
+
+int numbers[3] = {10, 20, 30};
+
+int *ptr = numbers;
+
+cout << *ptr;       // 10
+cout << *(ptr + 1); // 20
+cout << *(ptr + 2); // 30
+
+Important:
+
+- "&" gets the address of a variable.
+- "*" accesses the value through a pointer.
+- A pointer stores a memory address.
+- Always initialize pointers before using them.
