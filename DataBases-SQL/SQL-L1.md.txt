@@ -11,7 +11,7 @@ Examples: Student records, bank data, and e-commerce.
 - DBMS: Software used to create, store, manage, and retrieve data.
 - RDBMS: A type of DBMS that stores data in tables (rows and columns) and connects tables using keys.
 
-3. SQL
+3. SQL.
 
 SQL (Structured Query Language) is a language used to manage and manipulate data in relational databases.
 

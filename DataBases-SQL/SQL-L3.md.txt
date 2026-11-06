@@ -6,7 +6,7 @@ ALTER, TRUNCATE and DROP
 
 ALTER TABLE is used to modify the structure of an existing table.
 
-A. Add a Column
+A. Add a Column.
 
 Used to add a new column to a table.
 

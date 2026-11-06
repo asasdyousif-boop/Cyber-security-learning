@@ -62,7 +62,7 @@ CONSTRAINT user_chc CHECK (age >= 18)
 
 );
 
-6. FOREIGN KEY
+6. FOREIGN KEY.
 
 A FOREIGN KEY is used to connect two tables.
 
