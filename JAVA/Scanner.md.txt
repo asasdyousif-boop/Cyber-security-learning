@@ -1,0 +1,28 @@
+Scanner & Input
+
+In this lesson, I learned how to receive input from the user using the Scanner class.
+
+Import Scanner
+
+import java.util.Scanner;
+
+Create a Scanner Object
+
+Scanner input = new Scanner(System.in);
+
+Important Scanner Methods
+
+- "nextInt()" – Reads an integer.
+- "nextDouble()" – Reads a double value.
+- "nextFloat()" – Reads a float value.
+- "next()" – Reads one word.
+- "nextLine()" – Reads a complete line.
+- "nextBoolean()" – Reads a boolean value.
+- "nextLong()" – Reads a long integer.
+
+Important Notes
+
+- "next()" reads only one word.
+- "nextLine()" reads a complete line, including spaces.
+- The input method should match the data type.
+- Sometimes an extra "nextLine()" is needed after "nextInt()" to consume the remaining newline.

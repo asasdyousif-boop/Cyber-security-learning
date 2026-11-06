@@ -1,0 +1,49 @@
+Loop Syntax
+
+1. For Loop
+
+Used when we know how many times we want to repeat the code.
+
+for (initialization; condition; update) {
+    // statements
+}
+
+- Initialization: Sets the starting value.
+- Condition: Checks if the loop should continue.
+- Update: Changes the counter after each iteration.
+
+2. While Loop
+
+Repeats the code as long as the condition is true. The condition is checked before executing the code.
+
+while (condition) {
+    // statements
+}
+
+3. Do-While Loop
+
+Executes the code first, then checks the condition. It runs at least once.
+
+do {
+    // statements
+} while (condition);
+
+4. Nested Loops
+
+A loop inside another loop. The inner loop completes all its iterations for each iteration of the outer loop.
+
+for (initialization; condition; update) {
+    for (initialization; condition; update) {
+        // statements
+    }
+}
+
+Loop Control Statements
+
+break: Stops the loop immediately.
+
+break;
+
+continue: Skips the current iteration and moves to the next one.
+
+continue;

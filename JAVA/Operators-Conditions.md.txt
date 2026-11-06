@@ -1,0 +1,39 @@
+Operators & Conditions
+
+In this lesson, I learned how to use operators and conditions to perform calculations, comparisons, and make decisions in Java.
+
+1. Arithmetic Operators
+
+- "+" Addition
+- "-" Subtraction
+- "*" Multiplication
+- "/" Division
+- "%" Modulus (remainder)
+
+2. Comparison Operators
+
+- "==" Equal to
+- "!=" Not equal to
+- ">" Greater than
+- "<" Less than
+- ">=" Greater than or equal to
+- "<=" Less than or equal to
+
+3. Logical Operators
+
+- "&&" AND – Both conditions must be true.
+- "||" OR – At least one condition must be true.
+- "!" NOT – Reverses the logical value.
+
+4. Conditions
+
+- "if": Executes code when a condition is true.
+- "if-else": Chooses between two possibilities.
+- "else if": Checks multiple conditions.
+- "switch": Selects between different cases.
+
+Important Notes
+
+- "=" is used for assignment, while "==" is used for comparison.
+- Conditions usually return "true" or "false".
+- "break" is used to exit a switch case.

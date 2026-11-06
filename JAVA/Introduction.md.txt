@@ -1,0 +1,25 @@
+Java Introduction & Program Structure
+
+In this lesson, I learned the basics of Java and how a Java program is structured.
+
+- Java is a high-level, object-oriented programming language.
+- Java programs run on different operating systems using the JVM.
+- A Java program is organized into classes and methods.
+- The "main()" method is the starting point of program execution.
+- "System.out.print()" prints text on the same line.
+- "System.out.println()" prints text and moves to a new line.
+
+Basic Program Structure
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+Important Notes
+
+- Java is case-sensitive.
+- Most statements end with a semicolon ";".
+- Curly braces "{ }" define code blocks.
+- Comments are written using "//" or "/* */".
