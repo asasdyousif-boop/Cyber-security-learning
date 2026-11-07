@@ -1,0 +1,83 @@
+IP Address and Subnet Mask
+1. TCP/IP Model and OSI Model
+The TCP/IP model consists of four layers, while the OSI model consists of seven layers.
+
+Application Layer: Provides network services to applications.
+Transport Layer: Provides process-to-process communication.
+Internet Layer: Handles logical addressing and routing between networks.
+Network Access Layer: Handles data transmission over the physical network.
+
+2. IP Address
+IP stands for Internet Protocol. It is a set of rules used for communication between devices over a network.
+An IP address is a unique logical address assigned to a device on a network.
+IPv4 Address
+IPv4 is a 32-bit address divided into four parts called octets.
+Each octet contains 8 bits and its value ranges from 0 to 255.
+Example:
+192.168.1.1
+Each octet is separated by a dot.
+IPv4 Address Structure
+An IPv4 address consists of two main parts:
+Network Address: Identifies the network.
+Host Address: Identifies a device within that network.
+
+3. Subnet Mask
+A subnet mask is used to identify the network portion and the host portion of an IP address.
+Example:
+IP Address: 192.168.1.1
+Subnet Mask: 255.255.255.0
+Network Address: 192.168.1.0
+Broadcast Address: 192.168.1.255
+Important Terms
+Network Address: The first address of a subnet. It identifies the network.
+Host Address: An address assigned to a device within the network.
+Broadcast Address: The last address of a subnet, used to send data to all devices in that subnet.
+
+4. IPv4 Address Classes
+IPv4 addresses are traditionally divided into five classes.
+Class A
+First Octet: 1–126
+Default Subnet Mask: 255.0.0.0
+Used for large networks.
+
+Class B
+First Octet: 128–191
+Default Subnet Mask: 255.255.0.0
+Used for medium-sized networks.
+
+Class C
+First Octet: 192–223
+Default Subnet Mask: 255.255.255.0
+Used for small networks.
+
+Class D
+First Octet: 224–239
+Used for Multicast communication.
+
+Class E
+First Octet: 240–255
+Reserved for experimental and research purposes.
+Note: The traditional address classes are called Classful Addressing. Modern networks mainly use CIDR (Classless Inter-Domain Routing).
+
+5. Private and Public IP Addresses
+IP addresses are divided into two main types:
+Private IP Address
+Private IP addresses are used inside local networks (LANs), such as home and office networks.
+
+Private IPv4 ranges:
+Private IP addresses are not directly routable over the public Internet.
+Public IP Address
+A public IP address is used to identify a network or device on the Internet.
+It must be globally unique within the public Internet routing system.
+Example:
+A router may have a public IP address assigned by the Internet Service Provider (ISP), while devices inside the home use private IP addresses.
+
+6. IPv4 and IPv6
+There are two main versions of IP:
+IPv6 was developed to provide a much larger address space than IPv4.
+
+7. Loopback Address
+The loopback address is used to test network communication within the same device.
+Example:
+127.0.0.1
+It is commonly known as localhost.
