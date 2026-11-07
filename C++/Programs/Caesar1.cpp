@@ -36,5 +36,6 @@ cin >> shift;
    string decrypted = decrypt(encrypted, shift);
 cout << "\nCipher Text:  " << encrypted;
 cout << "\nPlain Text: " << decrypted << endl;
+return 0;
 }
 
