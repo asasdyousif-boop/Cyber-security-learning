@@ -1,0 +1,72 @@
+TCP/IP and OSI Models
+
+1. TCP/IP Model
+
+The TCP/IP model is a networking model used for communication between devices over the Internet. It consists of 4 layers:
+
+1. Network Access Layer
+
+- Handles the physical connection between devices.
+- Transfers data using Ethernet and Wi-Fi.
+- Uses MAC addresses.
+
+2. Internet Layer
+
+- Handles logical addressing and routing.
+- Uses IP addresses to identify devices.
+- Main protocol: IP.
+
+3. Transport Layer
+
+- Provides communication between applications.
+- Divides data into segments.
+- Main protocols:
+  - TCP: Reliable data delivery.
+  - UDP: Faster communication without guaranteed delivery.
+
+4. Application Layer
+
+- Provides network services to applications.
+- Allows users to access websites and network resources.
+- Examples: HTTP, HTTPS, FTP, and DNS.
+
+---
+
+2. OSI Model
+
+The OSI model is a reference model that explains how data travels across a network. It consists of 7 layers:
+
+1. Physical Layer: Transmits bits through cables and wireless signals.
+2. Data Link Layer: Handles frames, MAC addresses, and error detection.
+3. Network Layer: Handles IP addressing and routing between networks.
+4. Transport Layer: Provides end-to-end communication using TCP or UDP.
+5. Session Layer: Establishes, manages, and terminates sessions.
+6. Presentation Layer: Handles data formatting, encryption, and compression.
+7. Application Layer: Provides network services such as HTTP, FTP, and DNS.
+
+---
+
+3. Main Differences
+
+TCP/IP Model| OSI Model
+4 layers| 7 layers
+Practical networking model| Reference model
+Used for Internet communication| Used to understand network functions
+Combines some layers| Separates network functions
+
+4. Layer Mapping
+
+TCP/IP| OSI
+Application| Application, Presentation, Session
+Transport| Transport
+Internet| Network
+Network Access| Data Link, Physical
+
+5. Important Terms
+
+- IP Address: Identifies a device on a network.
+- MAC Address: Physical address of a network interface.
+- TCP: Reliable data transmission.
+- UDP: Fast data transmission.
+- Packet: A unit of data sent across a network.
+- Protocol: A set of rules for communication.
