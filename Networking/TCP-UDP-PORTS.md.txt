@@ -1,0 +1,68 @@
+TCP, UDP & Ports
+
+1. Definition
+
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer protocols used for communication between applications over a network.
+
+Ports are logical numbers used to identify network services and applications on a device.
+
+2. Explanation
+
+TCP
+- Connection-oriented protocol.
+- Uses a Three-Way Handshake (SYN, SYN-ACK, ACK).
+- Provides reliable and ordered data delivery.
+- Supports acknowledgments and retransmission.
+- Used when data accuracy is important.
+
+ UDP
+- Connectionless protocol.
+- Does not require a handshake.
+- Does not guarantee delivery or packet ordering.
+- Has a smaller header and lower protocol overhead.
+- Commonly used in DNS, DHCP, gaming, and real-time communication.
+
+Ports
+- Ports identify applications and services.
+- Port numbers range from 0 to 65535.
+- TCP and UDP have separate port spaces.
+
+Port ranges:
+- Well-Known: 0–1023
+- Registered: 1024–49151
+- Dynamic/Private: 49152–65535
+
+3. Examples
+
+ Port    Service 
+ 20, 21   FTP 
+ 22       SSH 
+ 23      Telnet 
+ 25       SMTP 
+ 53       DNS 
+ 67, 68    DHCP
+ 80       HTTP 
+ 443      HTTPS 
+ 3306     MySQL 
+ 3389     RDP 
+
+Useful commands:
+bash
+ss -tuln
+nmap -sT 127.0.0.1
+
+
+Windows:
+
+cmd
+netstat -ano
+
+ 4. Security Relevance
+
+- Port Scanning helps identify open network ports.
+- Open ports may expose services to potential attacks.
+- Firewalls control incoming and outgoing network traffic.
+- Nmap is commonly used for network discovery and port scanning.
+- Unnecessary services and ports should be disabled or restricted.
+
+Understanding TCP, UDP, and ports is essential for network security and cybersecurity analysis.
