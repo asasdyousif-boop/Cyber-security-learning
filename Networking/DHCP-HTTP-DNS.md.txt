@@ -1,0 +1,106 @@
+DNS, HTTP & DHCP
+
+1. DNS (Domain Name System)
+
+DNS translates domain names into IP addresses.
+
+How it works:
+1. The client requests a domain name.
+2. The DNS resolver checks its cache.
+3. If necessary, it queries DNS servers.
+4. The IP address is returned to the client.
+
+Common DNS Records:
+- A: Maps a domain to an IPv4 address.
+- AAAA: Maps a domain to an IPv6 address.
+- CNAME: Points one domain name to another.
+- MX: Identifies mail servers.
+- NS: Identifies authoritative name servers.
+- TXT: Stores text information.
+
+Port: 53 (UDP/TCP).
+
+Security Risks:
+- DNS Spoofing.
+- DNS Cache Poisoning.
+- DNS Tunneling.
+- DNS Amplification.
+
+2. HTTP (Hypertext Transfer Protocol)
+
+HTTP is used to transfer web resources between clients and servers.
+
+It follows the Request/Response model.
+
+Common HTTP Methods:
+- GET: Retrieve data.
+- POST: Send data.
+- PUT: Create or replace a resource.
+- PATCH: Modify part of a resource.
+- DELETE: Delete a resource.
+
+Common Status Codes:
+- 200: OK.
+- 301: Moved Permanently.
+- 400: Bad Request.
+- 401: Unauthorized.
+- 403: Forbidden.
+- 404: Not Found.
+- 500: Internal Server Error.
+
+HTTPS:
+HTTPS uses TLS to protect HTTP communication through encryption, integrity, and server authentication.
+
+Ports:
+- HTTP: TCP 80.
+- HTTPS: TCP 443.
+- HTTP/3: Usually UDP 443 using QUIC.
+
+Security Risks:
+- SQL Injection.
+- Cross-Site Scripting (XSS).
+- CSRF.
+- Session Hijacking.
+- HTTP Request Smuggling.
+
+3. DHCP (Dynamic Host Configuration Protocol)
+
+DHCP automatically provides network configuration to devices.
+
+Information provided:
+- IP Address.
+- Subnet Mask.
+- Default Gateway.
+- DNS Server.
+- Lease Time.
+
+DORA Process:
+1. Discover: The client searches for a DHCP server.
+2. Offer: The server offers an IP address.
+3. Request: The client requests the offered address.
+4. Acknowledge: The server confirms the configuration.
+
+Ports:
+- UDP 67: DHCP Server.
+- UDP 68: DHCP Client.
+
+Security Risks:
+- Rogue DHCP Server.
+- DHCP Starvation.
+- DHCP Spoofing.
+
+4. Practical Commands
+
+bash
+nslookup google.com
+dig google.com
+curl -I https://example.com
+ip addr
+ip route
+
+
+5. Security Relevance
+
+Understanding DNS, HTTP, and DHCP is important for network analysis and cybersecurity.
+
+These protocols help security professionals understand network communication, investigate suspicious traffic, identify attacks, and secure network services.
